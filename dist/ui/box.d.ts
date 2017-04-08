@@ -1,0 +1,51 @@
+import { ElementRef, EventEmitter, NgZone, OnChanges, DoCheck, SimpleChanges } from '@angular/core';
+import DxBox from 'devextreme/ui/box';
+import { DxComponent } from '../core/dx.component';
+import { DxTemplateHost } from '../core/dx.template-host';
+import { WatcherHelper } from '../core/watcher-helper';
+import { IterableDifferHelper } from '../core/iterable-differ-helper';
+export declare class DxBoxComponent extends DxComponent implements OnChanges, DoCheck {
+    private _watcherHelper;
+    private _idh;
+    instance: DxBox;
+    height: any;
+    rtlEnabled: any;
+    width: any;
+    disabled: any;
+    hoverStateEnabled: any;
+    visible: any;
+    dataSource: any;
+    itemHoldTimeout: any;
+    itemTemplate: any;
+    items: any;
+    align: any;
+    crossAlign: any;
+    direction: any;
+    onDisposing: EventEmitter<any>;
+    onInitialized: EventEmitter<any>;
+    onOptionChanged: EventEmitter<any>;
+    onContentReady: EventEmitter<any>;
+    onItemClick: EventEmitter<any>;
+    onItemContextMenu: EventEmitter<any>;
+    onItemHold: EventEmitter<any>;
+    onItemRendered: EventEmitter<any>;
+    heightChange: EventEmitter<any>;
+    rtlEnabledChange: EventEmitter<any>;
+    widthChange: EventEmitter<any>;
+    disabledChange: EventEmitter<any>;
+    hoverStateEnabledChange: EventEmitter<any>;
+    visibleChange: EventEmitter<any>;
+    dataSourceChange: EventEmitter<any>;
+    itemHoldTimeoutChange: EventEmitter<any>;
+    itemTemplateChange: EventEmitter<any>;
+    itemsChange: EventEmitter<any>;
+    alignChange: EventEmitter<any>;
+    crossAlignChange: EventEmitter<any>;
+    directionChange: EventEmitter<any>;
+    constructor(elementRef: ElementRef, ngZone: NgZone, templateHost: DxTemplateHost, _watcherHelper: WatcherHelper, _idh: IterableDifferHelper);
+    protected _createInstance(element: any, options: any): DxBox;
+    ngOnChanges(changes: SimpleChanges): void;
+    ngDoCheck(): void;
+}
+export declare class DxBoxModule {
+}

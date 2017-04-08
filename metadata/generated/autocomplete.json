@@ -1,0 +1,361 @@
+{
+    "className": "DxAutocomplete",
+    "widgetName": "dxAutocomplete",
+    "isExtension": false,
+    "selector": "dx-autocomplete",
+    "events": [
+        {
+            "emit": "onDisposing",
+            "subscribe": "disposing"
+        },
+        {
+            "emit": "onInitialized",
+            "subscribe": "initialized"
+        },
+        {
+            "emit": "onOptionChanged",
+            "subscribe": "optionChanged"
+        },
+        {
+            "emit": "onFocusIn",
+            "subscribe": "focusIn"
+        },
+        {
+            "emit": "onFocusOut",
+            "subscribe": "focusOut"
+        },
+        {
+            "emit": "onValueChanged",
+            "subscribe": "valueChanged"
+        },
+        {
+            "emit": "onChange",
+            "subscribe": "change"
+        },
+        {
+            "emit": "onCopy",
+            "subscribe": "copy"
+        },
+        {
+            "emit": "onCut",
+            "subscribe": "cut"
+        },
+        {
+            "emit": "onEnterKey",
+            "subscribe": "enterKey"
+        },
+        {
+            "emit": "onInput",
+            "subscribe": "input"
+        },
+        {
+            "emit": "onKeyDown",
+            "subscribe": "keyDown"
+        },
+        {
+            "emit": "onKeyPress",
+            "subscribe": "keyPress"
+        },
+        {
+            "emit": "onKeyUp",
+            "subscribe": "keyUp"
+        },
+        {
+            "emit": "onPaste",
+            "subscribe": "paste"
+        },
+        {
+            "emit": "onClosed",
+            "subscribe": "closed"
+        },
+        {
+            "emit": "onOpened",
+            "subscribe": "opened"
+        },
+        {
+            "emit": "onContentReady",
+            "subscribe": "contentReady"
+        },
+        {
+            "emit": "onItemClick",
+            "subscribe": "itemClick"
+        },
+        {
+            "emit": "onSelectionChanged",
+            "subscribe": "selectionChanged"
+        },
+        {
+            "emit": "dataSourceChange"
+        },
+        {
+            "emit": "displayExprChange"
+        },
+        {
+            "emit": "itemTemplateChange"
+        },
+        {
+            "emit": "valueExprChange"
+        },
+        {
+            "emit": "itemsChange"
+        },
+        {
+            "emit": "heightChange"
+        },
+        {
+            "emit": "rtlEnabledChange"
+        },
+        {
+            "emit": "widthChange"
+        },
+        {
+            "emit": "accessKeyChange"
+        },
+        {
+            "emit": "activeStateEnabledChange"
+        },
+        {
+            "emit": "disabledChange"
+        },
+        {
+            "emit": "focusStateEnabledChange"
+        },
+        {
+            "emit": "hintChange"
+        },
+        {
+            "emit": "hoverStateEnabledChange"
+        },
+        {
+            "emit": "tabIndexChange"
+        },
+        {
+            "emit": "visibleChange"
+        },
+        {
+            "emit": "isValidChange"
+        },
+        {
+            "emit": "nameChange"
+        },
+        {
+            "emit": "readOnlyChange"
+        },
+        {
+            "emit": "validationErrorChange"
+        },
+        {
+            "emit": "validationMessageModeChange"
+        },
+        {
+            "emit": "valueChange"
+        },
+        {
+            "emit": "attrChange"
+        },
+        {
+            "emit": "placeholderChange"
+        },
+        {
+            "emit": "showClearButtonChange"
+        },
+        {
+            "emit": "spellcheckChange"
+        },
+        {
+            "emit": "textChange"
+        },
+        {
+            "emit": "valueChangeEventChange"
+        },
+        {
+            "emit": "maxLengthChange"
+        },
+        {
+            "emit": "deferRenderingChange"
+        },
+        {
+            "emit": "openedChange"
+        },
+        {
+            "emit": "displayValueChange"
+        },
+        {
+            "emit": "minSearchLengthChange"
+        },
+        {
+            "emit": "searchExprChange"
+        },
+        {
+            "emit": "searchModeChange"
+        },
+        {
+            "emit": "searchTimeoutChange"
+        },
+        {
+            "emit": "selectedItemChange"
+        },
+        {
+            "emit": "maxItemCountChange"
+        }
+    ],
+    "properties": [
+        {
+            "name": "dataSource",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "displayExpr",
+            "type": "any"
+        },
+        {
+            "name": "itemTemplate",
+            "type": "any"
+        },
+        {
+            "name": "valueExpr",
+            "type": "any"
+        },
+        {
+            "name": "items",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "height",
+            "type": "any"
+        },
+        {
+            "name": "rtlEnabled",
+            "type": "any"
+        },
+        {
+            "name": "width",
+            "type": "any"
+        },
+        {
+            "name": "accessKey",
+            "type": "any"
+        },
+        {
+            "name": "activeStateEnabled",
+            "type": "any"
+        },
+        {
+            "name": "disabled",
+            "type": "any"
+        },
+        {
+            "name": "focusStateEnabled",
+            "type": "any"
+        },
+        {
+            "name": "hint",
+            "type": "any"
+        },
+        {
+            "name": "hoverStateEnabled",
+            "type": "any"
+        },
+        {
+            "name": "tabIndex",
+            "type": "any"
+        },
+        {
+            "name": "visible",
+            "type": "any"
+        },
+        {
+            "name": "isValid",
+            "type": "any"
+        },
+        {
+            "name": "name",
+            "type": "any"
+        },
+        {
+            "name": "readOnly",
+            "type": "any"
+        },
+        {
+            "name": "validationError",
+            "type": "any"
+        },
+        {
+            "name": "validationMessageMode",
+            "type": "any"
+        },
+        {
+            "name": "value",
+            "type": "any"
+        },
+        {
+            "name": "attr",
+            "type": "any"
+        },
+        {
+            "name": "placeholder",
+            "type": "any"
+        },
+        {
+            "name": "showClearButton",
+            "type": "any"
+        },
+        {
+            "name": "spellcheck",
+            "type": "any"
+        },
+        {
+            "name": "text",
+            "type": "any"
+        },
+        {
+            "name": "valueChangeEvent",
+            "type": "any"
+        },
+        {
+            "name": "maxLength",
+            "type": "any"
+        },
+        {
+            "name": "deferRendering",
+            "type": "any"
+        },
+        {
+            "name": "opened",
+            "type": "any"
+        },
+        {
+            "name": "displayValue",
+            "type": "any"
+        },
+        {
+            "name": "minSearchLength",
+            "type": "any"
+        },
+        {
+            "name": "searchExpr",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "searchMode",
+            "type": "any"
+        },
+        {
+            "name": "searchTimeout",
+            "type": "any"
+        },
+        {
+            "name": "selectedItem",
+            "type": "any"
+        },
+        {
+            "name": "maxItemCount",
+            "type": "any"
+        }
+    ],
+    "isEditor": true,
+    "module": "devextreme/ui/autocomplete"
+}

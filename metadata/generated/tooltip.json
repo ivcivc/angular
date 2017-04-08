@@ -1,0 +1,206 @@
+{
+    "className": "DxTooltip",
+    "widgetName": "dxTooltip",
+    "isExtension": false,
+    "selector": "dx-tooltip",
+    "events": [
+        {
+            "emit": "onDisposing",
+            "subscribe": "disposing"
+        },
+        {
+            "emit": "onInitialized",
+            "subscribe": "initialized"
+        },
+        {
+            "emit": "onOptionChanged",
+            "subscribe": "optionChanged"
+        },
+        {
+            "emit": "onContentReady",
+            "subscribe": "contentReady"
+        },
+        {
+            "emit": "onHidden",
+            "subscribe": "hidden"
+        },
+        {
+            "emit": "onHiding",
+            "subscribe": "hiding"
+        },
+        {
+            "emit": "onShowing",
+            "subscribe": "showing"
+        },
+        {
+            "emit": "onShown",
+            "subscribe": "shown"
+        },
+        {
+            "emit": "heightChange"
+        },
+        {
+            "emit": "rtlEnabledChange"
+        },
+        {
+            "emit": "widthChange"
+        },
+        {
+            "emit": "disabledChange"
+        },
+        {
+            "emit": "hintChange"
+        },
+        {
+            "emit": "hoverStateEnabledChange"
+        },
+        {
+            "emit": "visibleChange"
+        },
+        {
+            "emit": "animationChange"
+        },
+        {
+            "emit": "closeOnBackButtonChange"
+        },
+        {
+            "emit": "closeOnOutsideClickChange"
+        },
+        {
+            "emit": "contentTemplateChange"
+        },
+        {
+            "emit": "deferRenderingChange"
+        },
+        {
+            "emit": "maxHeightChange"
+        },
+        {
+            "emit": "maxWidthChange"
+        },
+        {
+            "emit": "minHeightChange"
+        },
+        {
+            "emit": "minWidthChange"
+        },
+        {
+            "emit": "shadingChange"
+        },
+        {
+            "emit": "shadingColorChange"
+        },
+        {
+            "emit": "buttonsChange"
+        },
+        {
+            "emit": "hideEventChange"
+        },
+        {
+            "emit": "positionChange"
+        },
+        {
+            "emit": "showEventChange"
+        },
+        {
+            "emit": "targetChange"
+        }
+    ],
+    "properties": [
+        {
+            "name": "height",
+            "type": "any"
+        },
+        {
+            "name": "rtlEnabled",
+            "type": "any"
+        },
+        {
+            "name": "width",
+            "type": "any"
+        },
+        {
+            "name": "disabled",
+            "type": "any"
+        },
+        {
+            "name": "hint",
+            "type": "any"
+        },
+        {
+            "name": "hoverStateEnabled",
+            "type": "any"
+        },
+        {
+            "name": "visible",
+            "type": "any"
+        },
+        {
+            "name": "animation",
+            "type": "any"
+        },
+        {
+            "name": "closeOnBackButton",
+            "type": "any"
+        },
+        {
+            "name": "closeOnOutsideClick",
+            "type": "any"
+        },
+        {
+            "name": "contentTemplate",
+            "type": "any"
+        },
+        {
+            "name": "deferRendering",
+            "type": "any"
+        },
+        {
+            "name": "maxHeight",
+            "type": "any"
+        },
+        {
+            "name": "maxWidth",
+            "type": "any"
+        },
+        {
+            "name": "minHeight",
+            "type": "any"
+        },
+        {
+            "name": "minWidth",
+            "type": "any"
+        },
+        {
+            "name": "shading",
+            "type": "any"
+        },
+        {
+            "name": "shadingColor",
+            "type": "any"
+        },
+        {
+            "name": "buttons",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "hideEvent",
+            "type": "any"
+        },
+        {
+            "name": "position",
+            "type": "any"
+        },
+        {
+            "name": "showEvent",
+            "type": "any"
+        },
+        {
+            "name": "target",
+            "type": "any"
+        }
+    ],
+    "isEditor": false,
+    "module": "devextreme/ui/tooltip"
+}

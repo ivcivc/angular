@@ -1,0 +1,251 @@
+{
+    "className": "DxTreeMap",
+    "widgetName": "dxTreeMap",
+    "isExtension": false,
+    "selector": "dx-tree-map",
+    "events": [
+        {
+            "emit": "onDisposing",
+            "subscribe": "disposing"
+        },
+        {
+            "emit": "onInitialized",
+            "subscribe": "initialized"
+        },
+        {
+            "emit": "onOptionChanged",
+            "subscribe": "optionChanged"
+        },
+        {
+            "emit": "onDrawn",
+            "subscribe": "drawn"
+        },
+        {
+            "emit": "onExported",
+            "subscribe": "exported"
+        },
+        {
+            "emit": "onExporting",
+            "subscribe": "exporting"
+        },
+        {
+            "emit": "onFileSaving",
+            "subscribe": "fileSaving"
+        },
+        {
+            "emit": "onIncidentOccurred",
+            "subscribe": "incidentOccurred"
+        },
+        {
+            "emit": "onClick",
+            "subscribe": "click"
+        },
+        {
+            "emit": "onDrill",
+            "subscribe": "drill"
+        },
+        {
+            "emit": "onHoverChanged",
+            "subscribe": "hoverChanged"
+        },
+        {
+            "emit": "onNodesInitialized",
+            "subscribe": "nodesInitialized"
+        },
+        {
+            "emit": "onNodesRendering",
+            "subscribe": "nodesRendering"
+        },
+        {
+            "emit": "onSelectionChanged",
+            "subscribe": "selectionChanged"
+        },
+        {
+            "emit": "rtlEnabledChange"
+        },
+        {
+            "emit": "exportChange"
+        },
+        {
+            "emit": "loadingIndicatorChange"
+        },
+        {
+            "emit": "pathModifiedChange"
+        },
+        {
+            "emit": "redrawOnResizeChange"
+        },
+        {
+            "emit": "sizeChange"
+        },
+        {
+            "emit": "themeChange"
+        },
+        {
+            "emit": "titleChange"
+        },
+        {
+            "emit": "tooltipChange"
+        },
+        {
+            "emit": "childrenFieldChange"
+        },
+        {
+            "emit": "colorFieldChange"
+        },
+        {
+            "emit": "colorizerChange"
+        },
+        {
+            "emit": "dataSourceChange"
+        },
+        {
+            "emit": "groupChange"
+        },
+        {
+            "emit": "hoverEnabledChange"
+        },
+        {
+            "emit": "idFieldChange"
+        },
+        {
+            "emit": "interactWithGroupChange"
+        },
+        {
+            "emit": "labelFieldChange"
+        },
+        {
+            "emit": "layoutAlgorithmChange"
+        },
+        {
+            "emit": "layoutDirectionChange"
+        },
+        {
+            "emit": "maxDepthChange"
+        },
+        {
+            "emit": "parentFieldChange"
+        },
+        {
+            "emit": "resolveLabelOverflowChange"
+        },
+        {
+            "emit": "selectionModeChange"
+        },
+        {
+            "emit": "tileChange"
+        },
+        {
+            "emit": "valueFieldChange"
+        }
+    ],
+    "properties": [
+        {
+            "name": "rtlEnabled",
+            "type": "any"
+        },
+        {
+            "name": "export",
+            "type": "any"
+        },
+        {
+            "name": "loadingIndicator",
+            "type": "any"
+        },
+        {
+            "name": "pathModified",
+            "type": "any"
+        },
+        {
+            "name": "redrawOnResize",
+            "type": "any"
+        },
+        {
+            "name": "size",
+            "type": "any"
+        },
+        {
+            "name": "theme",
+            "type": "any"
+        },
+        {
+            "name": "title",
+            "type": "any"
+        },
+        {
+            "name": "tooltip",
+            "type": "any"
+        },
+        {
+            "name": "childrenField",
+            "type": "any"
+        },
+        {
+            "name": "colorField",
+            "type": "any"
+        },
+        {
+            "name": "colorizer",
+            "type": "any"
+        },
+        {
+            "name": "dataSource",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "group",
+            "type": "any"
+        },
+        {
+            "name": "hoverEnabled",
+            "type": "any"
+        },
+        {
+            "name": "idField",
+            "type": "any"
+        },
+        {
+            "name": "interactWithGroup",
+            "type": "any"
+        },
+        {
+            "name": "labelField",
+            "type": "any"
+        },
+        {
+            "name": "layoutAlgorithm",
+            "type": "any"
+        },
+        {
+            "name": "layoutDirection",
+            "type": "any"
+        },
+        {
+            "name": "maxDepth",
+            "type": "any"
+        },
+        {
+            "name": "parentField",
+            "type": "any"
+        },
+        {
+            "name": "resolveLabelOverflow",
+            "type": "any"
+        },
+        {
+            "name": "selectionMode",
+            "type": "any"
+        },
+        {
+            "name": "tile",
+            "type": "any"
+        },
+        {
+            "name": "valueField",
+            "type": "any"
+        }
+    ],
+    "isEditor": false,
+    "module": "devextreme/viz/tree_map"
+}

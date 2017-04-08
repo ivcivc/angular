@@ -1,0 +1,137 @@
+{
+    "className": "DxBox",
+    "widgetName": "dxBox",
+    "isExtension": false,
+    "selector": "dx-box",
+    "events": [
+        {
+            "emit": "onDisposing",
+            "subscribe": "disposing"
+        },
+        {
+            "emit": "onInitialized",
+            "subscribe": "initialized"
+        },
+        {
+            "emit": "onOptionChanged",
+            "subscribe": "optionChanged"
+        },
+        {
+            "emit": "onContentReady",
+            "subscribe": "contentReady"
+        },
+        {
+            "emit": "onItemClick",
+            "subscribe": "itemClick"
+        },
+        {
+            "emit": "onItemContextMenu",
+            "subscribe": "itemContextMenu"
+        },
+        {
+            "emit": "onItemHold",
+            "subscribe": "itemHold"
+        },
+        {
+            "emit": "onItemRendered",
+            "subscribe": "itemRendered"
+        },
+        {
+            "emit": "heightChange"
+        },
+        {
+            "emit": "rtlEnabledChange"
+        },
+        {
+            "emit": "widthChange"
+        },
+        {
+            "emit": "disabledChange"
+        },
+        {
+            "emit": "hoverStateEnabledChange"
+        },
+        {
+            "emit": "visibleChange"
+        },
+        {
+            "emit": "dataSourceChange"
+        },
+        {
+            "emit": "itemHoldTimeoutChange"
+        },
+        {
+            "emit": "itemTemplateChange"
+        },
+        {
+            "emit": "itemsChange"
+        },
+        {
+            "emit": "alignChange"
+        },
+        {
+            "emit": "crossAlignChange"
+        },
+        {
+            "emit": "directionChange"
+        }
+    ],
+    "properties": [
+        {
+            "name": "height",
+            "type": "any"
+        },
+        {
+            "name": "rtlEnabled",
+            "type": "any"
+        },
+        {
+            "name": "width",
+            "type": "any"
+        },
+        {
+            "name": "disabled",
+            "type": "any"
+        },
+        {
+            "name": "hoverStateEnabled",
+            "type": "any"
+        },
+        {
+            "name": "visible",
+            "type": "any"
+        },
+        {
+            "name": "dataSource",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "itemHoldTimeout",
+            "type": "any"
+        },
+        {
+            "name": "itemTemplate",
+            "type": "any"
+        },
+        {
+            "name": "items",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "align",
+            "type": "any"
+        },
+        {
+            "name": "crossAlign",
+            "type": "any"
+        },
+        {
+            "name": "direction",
+            "type": "any"
+        }
+    ],
+    "isEditor": false,
+    "module": "devextreme/ui/box"
+}

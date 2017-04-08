@@ -1,0 +1,247 @@
+{
+    "className": "DxForm",
+    "widgetName": "dxForm",
+    "isExtension": false,
+    "selector": "dx-form",
+    "events": [
+        {
+            "emit": "onDisposing",
+            "subscribe": "disposing"
+        },
+        {
+            "emit": "onInitialized",
+            "subscribe": "initialized"
+        },
+        {
+            "emit": "onOptionChanged",
+            "subscribe": "optionChanged"
+        },
+        {
+            "emit": "onContentReady",
+            "subscribe": "contentReady"
+        },
+        {
+            "emit": "onEditorEnterKey",
+            "subscribe": "editorEnterKey"
+        },
+        {
+            "emit": "onFieldDataChanged",
+            "subscribe": "fieldDataChanged"
+        },
+        {
+            "emit": "heightChange"
+        },
+        {
+            "emit": "rtlEnabledChange"
+        },
+        {
+            "emit": "widthChange"
+        },
+        {
+            "emit": "accessKeyChange"
+        },
+        {
+            "emit": "activeStateEnabledChange"
+        },
+        {
+            "emit": "disabledChange"
+        },
+        {
+            "emit": "focusStateEnabledChange"
+        },
+        {
+            "emit": "hintChange"
+        },
+        {
+            "emit": "hoverStateEnabledChange"
+        },
+        {
+            "emit": "tabIndexChange"
+        },
+        {
+            "emit": "visibleChange"
+        },
+        {
+            "emit": "alignItemLabelsChange"
+        },
+        {
+            "emit": "alignItemLabelsInAllGroupsChange"
+        },
+        {
+            "emit": "colCountChange"
+        },
+        {
+            "emit": "colCountByScreenChange"
+        },
+        {
+            "emit": "customizeItemChange"
+        },
+        {
+            "emit": "formDataChange"
+        },
+        {
+            "emit": "itemsChange"
+        },
+        {
+            "emit": "labelLocationChange"
+        },
+        {
+            "emit": "minColWidthChange"
+        },
+        {
+            "emit": "optionalMarkChange"
+        },
+        {
+            "emit": "readOnlyChange"
+        },
+        {
+            "emit": "requiredMarkChange"
+        },
+        {
+            "emit": "requiredMessageChange"
+        },
+        {
+            "emit": "screenByWidthChange"
+        },
+        {
+            "emit": "scrollingEnabledChange"
+        },
+        {
+            "emit": "showColonAfterLabelChange"
+        },
+        {
+            "emit": "showOptionalMarkChange"
+        },
+        {
+            "emit": "showRequiredMarkChange"
+        },
+        {
+            "emit": "showValidationSummaryChange"
+        }
+    ],
+    "properties": [
+        {
+            "name": "height",
+            "type": "any"
+        },
+        {
+            "name": "rtlEnabled",
+            "type": "any"
+        },
+        {
+            "name": "width",
+            "type": "any"
+        },
+        {
+            "name": "accessKey",
+            "type": "any"
+        },
+        {
+            "name": "activeStateEnabled",
+            "type": "any"
+        },
+        {
+            "name": "disabled",
+            "type": "any"
+        },
+        {
+            "name": "focusStateEnabled",
+            "type": "any"
+        },
+        {
+            "name": "hint",
+            "type": "any"
+        },
+        {
+            "name": "hoverStateEnabled",
+            "type": "any"
+        },
+        {
+            "name": "tabIndex",
+            "type": "any"
+        },
+        {
+            "name": "visible",
+            "type": "any"
+        },
+        {
+            "name": "alignItemLabels",
+            "type": "any"
+        },
+        {
+            "name": "alignItemLabelsInAllGroups",
+            "type": "any"
+        },
+        {
+            "name": "colCount",
+            "type": "any"
+        },
+        {
+            "name": "colCountByScreen",
+            "type": "any"
+        },
+        {
+            "name": "customizeItem",
+            "type": "any"
+        },
+        {
+            "name": "formData",
+            "type": "any"
+        },
+        {
+            "name": "items",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "labelLocation",
+            "type": "any"
+        },
+        {
+            "name": "minColWidth",
+            "type": "any"
+        },
+        {
+            "name": "optionalMark",
+            "type": "any"
+        },
+        {
+            "name": "readOnly",
+            "type": "any"
+        },
+        {
+            "name": "requiredMark",
+            "type": "any"
+        },
+        {
+            "name": "requiredMessage",
+            "type": "any"
+        },
+        {
+            "name": "screenByWidth",
+            "type": "any"
+        },
+        {
+            "name": "scrollingEnabled",
+            "type": "any"
+        },
+        {
+            "name": "showColonAfterLabel",
+            "type": "any"
+        },
+        {
+            "name": "showOptionalMark",
+            "type": "any"
+        },
+        {
+            "name": "showRequiredMark",
+            "type": "any"
+        },
+        {
+            "name": "showValidationSummary",
+            "type": "any"
+        }
+    ],
+    "isEditor": false,
+    "module": "devextreme/ui/form"
+}

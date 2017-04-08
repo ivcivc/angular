@@ -1,0 +1,115 @@
+{
+    "className": "DxSlideOutView",
+    "widgetName": "dxSlideOutView",
+    "isExtension": false,
+    "selector": "dx-slide-out-view",
+    "events": [
+        {
+            "emit": "onDisposing",
+            "subscribe": "disposing"
+        },
+        {
+            "emit": "onInitialized",
+            "subscribe": "initialized"
+        },
+        {
+            "emit": "onOptionChanged",
+            "subscribe": "optionChanged"
+        },
+        {
+            "emit": "heightChange"
+        },
+        {
+            "emit": "rtlEnabledChange"
+        },
+        {
+            "emit": "widthChange"
+        },
+        {
+            "emit": "activeStateEnabledChange"
+        },
+        {
+            "emit": "disabledChange"
+        },
+        {
+            "emit": "hintChange"
+        },
+        {
+            "emit": "hoverStateEnabledChange"
+        },
+        {
+            "emit": "visibleChange"
+        },
+        {
+            "emit": "contentTemplateChange"
+        },
+        {
+            "emit": "menuPositionChange"
+        },
+        {
+            "emit": "menuTemplateChange"
+        },
+        {
+            "emit": "menuVisibleChange"
+        },
+        {
+            "emit": "swipeEnabledChange"
+        }
+    ],
+    "properties": [
+        {
+            "name": "height",
+            "type": "any"
+        },
+        {
+            "name": "rtlEnabled",
+            "type": "any"
+        },
+        {
+            "name": "width",
+            "type": "any"
+        },
+        {
+            "name": "activeStateEnabled",
+            "type": "any"
+        },
+        {
+            "name": "disabled",
+            "type": "any"
+        },
+        {
+            "name": "hint",
+            "type": "any"
+        },
+        {
+            "name": "hoverStateEnabled",
+            "type": "any"
+        },
+        {
+            "name": "visible",
+            "type": "any"
+        },
+        {
+            "name": "contentTemplate",
+            "type": "any"
+        },
+        {
+            "name": "menuPosition",
+            "type": "any"
+        },
+        {
+            "name": "menuTemplate",
+            "type": "any"
+        },
+        {
+            "name": "menuVisible",
+            "type": "any"
+        },
+        {
+            "name": "swipeEnabled",
+            "type": "any"
+        }
+    ],
+    "isEditor": false,
+    "module": "devextreme/ui/slide_out_view"
+}

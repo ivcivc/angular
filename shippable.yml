@@ -1,0 +1,24 @@
+#set your language below
+language: node_js
+
+env:
+	- XUNIT_FILE=shippable/testresults/test-results.xml
+
+node_js:
+  - "5.10"
+
+before_install:
+  - shippable_retry npm install -g gulp
+
+before_script:
+  - mkdir -p shippable/testresults
+
+build:
+  pre_ci_boot:
+    image_name: drydock/u14nod
+    image_tag: prod
+    pull: true
+
+  ci:
+    - shippable_retry npm install --unsafe-perm
+    - gulp test

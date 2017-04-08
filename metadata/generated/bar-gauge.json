@@ -1,0 +1,208 @@
+{
+    "className": "DxBarGauge",
+    "widgetName": "dxBarGauge",
+    "isExtension": false,
+    "selector": "dx-bar-gauge",
+    "events": [
+        {
+            "emit": "onDisposing",
+            "subscribe": "disposing"
+        },
+        {
+            "emit": "onInitialized",
+            "subscribe": "initialized"
+        },
+        {
+            "emit": "onOptionChanged",
+            "subscribe": "optionChanged"
+        },
+        {
+            "emit": "onDrawn",
+            "subscribe": "drawn"
+        },
+        {
+            "emit": "onExported",
+            "subscribe": "exported"
+        },
+        {
+            "emit": "onExporting",
+            "subscribe": "exporting"
+        },
+        {
+            "emit": "onFileSaving",
+            "subscribe": "fileSaving"
+        },
+        {
+            "emit": "onIncidentOccurred",
+            "subscribe": "incidentOccurred"
+        },
+        {
+            "emit": "onTooltipHidden",
+            "subscribe": "tooltipHidden"
+        },
+        {
+            "emit": "onTooltipShown",
+            "subscribe": "tooltipShown"
+        },
+        {
+            "emit": "rtlEnabledChange"
+        },
+        {
+            "emit": "exportChange"
+        },
+        {
+            "emit": "loadingIndicatorChange"
+        },
+        {
+            "emit": "marginChange"
+        },
+        {
+            "emit": "pathModifiedChange"
+        },
+        {
+            "emit": "redrawOnResizeChange"
+        },
+        {
+            "emit": "sizeChange"
+        },
+        {
+            "emit": "themeChange"
+        },
+        {
+            "emit": "titleChange"
+        },
+        {
+            "emit": "tooltipChange"
+        },
+        {
+            "emit": "animationChange"
+        },
+        {
+            "emit": "backgroundColorChange"
+        },
+        {
+            "emit": "barSpacingChange"
+        },
+        {
+            "emit": "baseValueChange"
+        },
+        {
+            "emit": "endValueChange"
+        },
+        {
+            "emit": "geometryChange"
+        },
+        {
+            "emit": "labelChange"
+        },
+        {
+            "emit": "paletteChange"
+        },
+        {
+            "emit": "relativeInnerRadiusChange"
+        },
+        {
+            "emit": "startValueChange"
+        },
+        {
+            "emit": "subtitleChange"
+        },
+        {
+            "emit": "valuesChange"
+        }
+    ],
+    "properties": [
+        {
+            "name": "rtlEnabled",
+            "type": "any"
+        },
+        {
+            "name": "export",
+            "type": "any"
+        },
+        {
+            "name": "loadingIndicator",
+            "type": "any"
+        },
+        {
+            "name": "margin",
+            "type": "any"
+        },
+        {
+            "name": "pathModified",
+            "type": "any"
+        },
+        {
+            "name": "redrawOnResize",
+            "type": "any"
+        },
+        {
+            "name": "size",
+            "type": "any"
+        },
+        {
+            "name": "theme",
+            "type": "any"
+        },
+        {
+            "name": "title",
+            "type": "any"
+        },
+        {
+            "name": "tooltip",
+            "type": "any"
+        },
+        {
+            "name": "animation",
+            "type": "any"
+        },
+        {
+            "name": "backgroundColor",
+            "type": "any"
+        },
+        {
+            "name": "barSpacing",
+            "type": "any"
+        },
+        {
+            "name": "baseValue",
+            "type": "any"
+        },
+        {
+            "name": "endValue",
+            "type": "any"
+        },
+        {
+            "name": "geometry",
+            "type": "any"
+        },
+        {
+            "name": "label",
+            "type": "any"
+        },
+        {
+            "name": "palette",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "relativeInnerRadius",
+            "type": "any"
+        },
+        {
+            "name": "startValue",
+            "type": "any"
+        },
+        {
+            "name": "subtitle",
+            "type": "any"
+        },
+        {
+            "name": "values",
+            "type": "any",
+            "isCollection": true
+        }
+    ],
+    "isEditor": false,
+    "module": "devextreme/viz/bar_gauge"
+}

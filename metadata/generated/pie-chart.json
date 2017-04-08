@@ -1,0 +1,257 @@
+{
+    "className": "DxPieChart",
+    "widgetName": "dxPieChart",
+    "isExtension": false,
+    "selector": "dx-pie-chart",
+    "events": [
+        {
+            "emit": "onDisposing",
+            "subscribe": "disposing"
+        },
+        {
+            "emit": "onInitialized",
+            "subscribe": "initialized"
+        },
+        {
+            "emit": "onOptionChanged",
+            "subscribe": "optionChanged"
+        },
+        {
+            "emit": "onDrawn",
+            "subscribe": "drawn"
+        },
+        {
+            "emit": "onExported",
+            "subscribe": "exported"
+        },
+        {
+            "emit": "onExporting",
+            "subscribe": "exporting"
+        },
+        {
+            "emit": "onFileSaving",
+            "subscribe": "fileSaving"
+        },
+        {
+            "emit": "onIncidentOccurred",
+            "subscribe": "incidentOccurred"
+        },
+        {
+            "emit": "onDone",
+            "subscribe": "done"
+        },
+        {
+            "emit": "onPointClick",
+            "subscribe": "pointClick"
+        },
+        {
+            "emit": "onPointHoverChanged",
+            "subscribe": "pointHoverChanged"
+        },
+        {
+            "emit": "onPointSelectionChanged",
+            "subscribe": "pointSelectionChanged"
+        },
+        {
+            "emit": "onTooltipHidden",
+            "subscribe": "tooltipHidden"
+        },
+        {
+            "emit": "onTooltipShown",
+            "subscribe": "tooltipShown"
+        },
+        {
+            "emit": "onLegendClick",
+            "subscribe": "legendClick"
+        },
+        {
+            "emit": "rtlEnabledChange"
+        },
+        {
+            "emit": "exportChange"
+        },
+        {
+            "emit": "loadingIndicatorChange"
+        },
+        {
+            "emit": "marginChange"
+        },
+        {
+            "emit": "pathModifiedChange"
+        },
+        {
+            "emit": "redrawOnResizeChange"
+        },
+        {
+            "emit": "sizeChange"
+        },
+        {
+            "emit": "themeChange"
+        },
+        {
+            "emit": "titleChange"
+        },
+        {
+            "emit": "tooltipChange"
+        },
+        {
+            "emit": "adaptiveLayoutChange"
+        },
+        {
+            "emit": "animationChange"
+        },
+        {
+            "emit": "customizeLabelChange"
+        },
+        {
+            "emit": "customizePointChange"
+        },
+        {
+            "emit": "dataSourceChange"
+        },
+        {
+            "emit": "legendChange"
+        },
+        {
+            "emit": "paletteChange"
+        },
+        {
+            "emit": "pointSelectionModeChange"
+        },
+        {
+            "emit": "commonSeriesSettingsChange"
+        },
+        {
+            "emit": "diameterChange"
+        },
+        {
+            "emit": "innerRadiusChange"
+        },
+        {
+            "emit": "resolveLabelOverlappingChange"
+        },
+        {
+            "emit": "segmentsDirectionChange"
+        },
+        {
+            "emit": "seriesChange"
+        },
+        {
+            "emit": "startAngleChange"
+        },
+        {
+            "emit": "typeChange"
+        }
+    ],
+    "properties": [
+        {
+            "name": "rtlEnabled",
+            "type": "any"
+        },
+        {
+            "name": "export",
+            "type": "any"
+        },
+        {
+            "name": "loadingIndicator",
+            "type": "any"
+        },
+        {
+            "name": "margin",
+            "type": "any"
+        },
+        {
+            "name": "pathModified",
+            "type": "any"
+        },
+        {
+            "name": "redrawOnResize",
+            "type": "any"
+        },
+        {
+            "name": "size",
+            "type": "any"
+        },
+        {
+            "name": "theme",
+            "type": "any"
+        },
+        {
+            "name": "title",
+            "type": "any"
+        },
+        {
+            "name": "tooltip",
+            "type": "any"
+        },
+        {
+            "name": "adaptiveLayout",
+            "type": "any"
+        },
+        {
+            "name": "animation",
+            "type": "any"
+        },
+        {
+            "name": "customizeLabel",
+            "type": "any"
+        },
+        {
+            "name": "customizePoint",
+            "type": "any"
+        },
+        {
+            "name": "dataSource",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "legend",
+            "type": "any"
+        },
+        {
+            "name": "palette",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "pointSelectionMode",
+            "type": "any"
+        },
+        {
+            "name": "commonSeriesSettings",
+            "type": "any"
+        },
+        {
+            "name": "diameter",
+            "type": "any"
+        },
+        {
+            "name": "innerRadius",
+            "type": "any"
+        },
+        {
+            "name": "resolveLabelOverlapping",
+            "type": "any"
+        },
+        {
+            "name": "segmentsDirection",
+            "type": "any"
+        },
+        {
+            "name": "series",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "startAngle",
+            "type": "any"
+        },
+        {
+            "name": "type",
+            "type": "any"
+        }
+    ],
+    "isEditor": false,
+    "module": "devextreme/viz/pie_chart"
+}

@@ -1,0 +1,157 @@
+{
+    "className": "DxBullet",
+    "widgetName": "dxBullet",
+    "isExtension": false,
+    "selector": "dx-bullet",
+    "events": [
+        {
+            "emit": "onDisposing",
+            "subscribe": "disposing"
+        },
+        {
+            "emit": "onInitialized",
+            "subscribe": "initialized"
+        },
+        {
+            "emit": "onOptionChanged",
+            "subscribe": "optionChanged"
+        },
+        {
+            "emit": "onDrawn",
+            "subscribe": "drawn"
+        },
+        {
+            "emit": "onExported",
+            "subscribe": "exported"
+        },
+        {
+            "emit": "onExporting",
+            "subscribe": "exporting"
+        },
+        {
+            "emit": "onFileSaving",
+            "subscribe": "fileSaving"
+        },
+        {
+            "emit": "onIncidentOccurred",
+            "subscribe": "incidentOccurred"
+        },
+        {
+            "emit": "onTooltipHidden",
+            "subscribe": "tooltipHidden"
+        },
+        {
+            "emit": "onTooltipShown",
+            "subscribe": "tooltipShown"
+        },
+        {
+            "emit": "rtlEnabledChange"
+        },
+        {
+            "emit": "marginChange"
+        },
+        {
+            "emit": "pathModifiedChange"
+        },
+        {
+            "emit": "sizeChange"
+        },
+        {
+            "emit": "themeChange"
+        },
+        {
+            "emit": "tooltipChange"
+        },
+        {
+            "emit": "colorChange"
+        },
+        {
+            "emit": "endScaleValueChange"
+        },
+        {
+            "emit": "showTargetChange"
+        },
+        {
+            "emit": "showZeroLevelChange"
+        },
+        {
+            "emit": "startScaleValueChange"
+        },
+        {
+            "emit": "targetChange"
+        },
+        {
+            "emit": "targetColorChange"
+        },
+        {
+            "emit": "targetWidthChange"
+        },
+        {
+            "emit": "valueChange"
+        }
+    ],
+    "properties": [
+        {
+            "name": "rtlEnabled",
+            "type": "any"
+        },
+        {
+            "name": "margin",
+            "type": "any"
+        },
+        {
+            "name": "pathModified",
+            "type": "any"
+        },
+        {
+            "name": "size",
+            "type": "any"
+        },
+        {
+            "name": "theme",
+            "type": "any"
+        },
+        {
+            "name": "tooltip",
+            "type": "any"
+        },
+        {
+            "name": "color",
+            "type": "any"
+        },
+        {
+            "name": "endScaleValue",
+            "type": "any"
+        },
+        {
+            "name": "showTarget",
+            "type": "any"
+        },
+        {
+            "name": "showZeroLevel",
+            "type": "any"
+        },
+        {
+            "name": "startScaleValue",
+            "type": "any"
+        },
+        {
+            "name": "target",
+            "type": "any"
+        },
+        {
+            "name": "targetColor",
+            "type": "any"
+        },
+        {
+            "name": "targetWidth",
+            "type": "any"
+        },
+        {
+            "name": "value",
+            "type": "any"
+        }
+    ],
+    "isEditor": true,
+    "module": "devextreme/viz/bullet"
+}

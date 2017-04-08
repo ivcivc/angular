@@ -1,0 +1,210 @@
+{
+    "className": "DxRangeSlider",
+    "widgetName": "dxRangeSlider",
+    "isExtension": false,
+    "selector": "dx-range-slider",
+    "events": [
+        {
+            "emit": "onDisposing",
+            "subscribe": "disposing"
+        },
+        {
+            "emit": "onInitialized",
+            "subscribe": "initialized"
+        },
+        {
+            "emit": "onOptionChanged",
+            "subscribe": "optionChanged"
+        },
+        {
+            "emit": "onValueChanged",
+            "subscribe": "valueChanged"
+        },
+        {
+            "emit": "heightChange"
+        },
+        {
+            "emit": "rtlEnabledChange"
+        },
+        {
+            "emit": "widthChange"
+        },
+        {
+            "emit": "accessKeyChange"
+        },
+        {
+            "emit": "activeStateEnabledChange"
+        },
+        {
+            "emit": "disabledChange"
+        },
+        {
+            "emit": "focusStateEnabledChange"
+        },
+        {
+            "emit": "hintChange"
+        },
+        {
+            "emit": "hoverStateEnabledChange"
+        },
+        {
+            "emit": "tabIndexChange"
+        },
+        {
+            "emit": "visibleChange"
+        },
+        {
+            "emit": "isValidChange"
+        },
+        {
+            "emit": "readOnlyChange"
+        },
+        {
+            "emit": "validationErrorChange"
+        },
+        {
+            "emit": "validationMessageModeChange"
+        },
+        {
+            "emit": "maxChange"
+        },
+        {
+            "emit": "minChange"
+        },
+        {
+            "emit": "keyStepChange"
+        },
+        {
+            "emit": "labelChange"
+        },
+        {
+            "emit": "showRangeChange"
+        },
+        {
+            "emit": "stepChange"
+        },
+        {
+            "emit": "tooltipChange"
+        },
+        {
+            "emit": "endChange"
+        },
+        {
+            "emit": "endNameChange"
+        },
+        {
+            "emit": "startChange"
+        },
+        {
+            "emit": "startNameChange"
+        }
+    ],
+    "properties": [
+        {
+            "name": "height",
+            "type": "any"
+        },
+        {
+            "name": "rtlEnabled",
+            "type": "any"
+        },
+        {
+            "name": "width",
+            "type": "any"
+        },
+        {
+            "name": "accessKey",
+            "type": "any"
+        },
+        {
+            "name": "activeStateEnabled",
+            "type": "any"
+        },
+        {
+            "name": "disabled",
+            "type": "any"
+        },
+        {
+            "name": "focusStateEnabled",
+            "type": "any"
+        },
+        {
+            "name": "hint",
+            "type": "any"
+        },
+        {
+            "name": "hoverStateEnabled",
+            "type": "any"
+        },
+        {
+            "name": "tabIndex",
+            "type": "any"
+        },
+        {
+            "name": "visible",
+            "type": "any"
+        },
+        {
+            "name": "isValid",
+            "type": "any"
+        },
+        {
+            "name": "readOnly",
+            "type": "any"
+        },
+        {
+            "name": "validationError",
+            "type": "any"
+        },
+        {
+            "name": "validationMessageMode",
+            "type": "any"
+        },
+        {
+            "name": "max",
+            "type": "any"
+        },
+        {
+            "name": "min",
+            "type": "any"
+        },
+        {
+            "name": "keyStep",
+            "type": "any"
+        },
+        {
+            "name": "label",
+            "type": "any"
+        },
+        {
+            "name": "showRange",
+            "type": "any"
+        },
+        {
+            "name": "step",
+            "type": "any"
+        },
+        {
+            "name": "tooltip",
+            "type": "any"
+        },
+        {
+            "name": "end",
+            "type": "any"
+        },
+        {
+            "name": "endName",
+            "type": "any"
+        },
+        {
+            "name": "start",
+            "type": "any"
+        },
+        {
+            "name": "startName",
+            "type": "any"
+        }
+    ],
+    "isEditor": false,
+    "module": "devextreme/ui/range_slider"
+}

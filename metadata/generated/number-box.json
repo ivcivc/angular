@@ -1,0 +1,268 @@
+{
+    "className": "DxNumberBox",
+    "widgetName": "dxNumberBox",
+    "isExtension": false,
+    "selector": "dx-number-box",
+    "events": [
+        {
+            "emit": "onDisposing",
+            "subscribe": "disposing"
+        },
+        {
+            "emit": "onInitialized",
+            "subscribe": "initialized"
+        },
+        {
+            "emit": "onOptionChanged",
+            "subscribe": "optionChanged"
+        },
+        {
+            "emit": "onFocusIn",
+            "subscribe": "focusIn"
+        },
+        {
+            "emit": "onFocusOut",
+            "subscribe": "focusOut"
+        },
+        {
+            "emit": "onValueChanged",
+            "subscribe": "valueChanged"
+        },
+        {
+            "emit": "onChange",
+            "subscribe": "change"
+        },
+        {
+            "emit": "onCopy",
+            "subscribe": "copy"
+        },
+        {
+            "emit": "onCut",
+            "subscribe": "cut"
+        },
+        {
+            "emit": "onEnterKey",
+            "subscribe": "enterKey"
+        },
+        {
+            "emit": "onInput",
+            "subscribe": "input"
+        },
+        {
+            "emit": "onKeyDown",
+            "subscribe": "keyDown"
+        },
+        {
+            "emit": "onKeyPress",
+            "subscribe": "keyPress"
+        },
+        {
+            "emit": "onKeyUp",
+            "subscribe": "keyUp"
+        },
+        {
+            "emit": "onPaste",
+            "subscribe": "paste"
+        },
+        {
+            "emit": "heightChange"
+        },
+        {
+            "emit": "rtlEnabledChange"
+        },
+        {
+            "emit": "widthChange"
+        },
+        {
+            "emit": "accessKeyChange"
+        },
+        {
+            "emit": "activeStateEnabledChange"
+        },
+        {
+            "emit": "disabledChange"
+        },
+        {
+            "emit": "focusStateEnabledChange"
+        },
+        {
+            "emit": "hintChange"
+        },
+        {
+            "emit": "hoverStateEnabledChange"
+        },
+        {
+            "emit": "tabIndexChange"
+        },
+        {
+            "emit": "visibleChange"
+        },
+        {
+            "emit": "isValidChange"
+        },
+        {
+            "emit": "nameChange"
+        },
+        {
+            "emit": "readOnlyChange"
+        },
+        {
+            "emit": "validationErrorChange"
+        },
+        {
+            "emit": "validationMessageModeChange"
+        },
+        {
+            "emit": "valueChange"
+        },
+        {
+            "emit": "attrChange"
+        },
+        {
+            "emit": "placeholderChange"
+        },
+        {
+            "emit": "showClearButtonChange"
+        },
+        {
+            "emit": "textChange"
+        },
+        {
+            "emit": "valueChangeEventChange"
+        },
+        {
+            "emit": "invalidValueMessageChange"
+        },
+        {
+            "emit": "maxChange"
+        },
+        {
+            "emit": "minChange"
+        },
+        {
+            "emit": "modeChange"
+        },
+        {
+            "emit": "showSpinButtonsChange"
+        },
+        {
+            "emit": "stepChange"
+        }
+    ],
+    "properties": [
+        {
+            "name": "height",
+            "type": "any"
+        },
+        {
+            "name": "rtlEnabled",
+            "type": "any"
+        },
+        {
+            "name": "width",
+            "type": "any"
+        },
+        {
+            "name": "accessKey",
+            "type": "any"
+        },
+        {
+            "name": "activeStateEnabled",
+            "type": "any"
+        },
+        {
+            "name": "disabled",
+            "type": "any"
+        },
+        {
+            "name": "focusStateEnabled",
+            "type": "any"
+        },
+        {
+            "name": "hint",
+            "type": "any"
+        },
+        {
+            "name": "hoverStateEnabled",
+            "type": "any"
+        },
+        {
+            "name": "tabIndex",
+            "type": "any"
+        },
+        {
+            "name": "visible",
+            "type": "any"
+        },
+        {
+            "name": "isValid",
+            "type": "any"
+        },
+        {
+            "name": "name",
+            "type": "any"
+        },
+        {
+            "name": "readOnly",
+            "type": "any"
+        },
+        {
+            "name": "validationError",
+            "type": "any"
+        },
+        {
+            "name": "validationMessageMode",
+            "type": "any"
+        },
+        {
+            "name": "value",
+            "type": "any"
+        },
+        {
+            "name": "attr",
+            "type": "any"
+        },
+        {
+            "name": "placeholder",
+            "type": "any"
+        },
+        {
+            "name": "showClearButton",
+            "type": "any"
+        },
+        {
+            "name": "text",
+            "type": "any"
+        },
+        {
+            "name": "valueChangeEvent",
+            "type": "any"
+        },
+        {
+            "name": "invalidValueMessage",
+            "type": "any"
+        },
+        {
+            "name": "max",
+            "type": "any"
+        },
+        {
+            "name": "min",
+            "type": "any"
+        },
+        {
+            "name": "mode",
+            "type": "any"
+        },
+        {
+            "name": "showSpinButtons",
+            "type": "any"
+        },
+        {
+            "name": "step",
+            "type": "any"
+        }
+    ],
+    "isEditor": true,
+    "module": "devextreme/ui/number_box"
+}

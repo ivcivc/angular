@@ -1,0 +1,272 @@
+{
+    "className": "DxVectorMap",
+    "widgetName": "dxVectorMap",
+    "isExtension": false,
+    "selector": "dx-vector-map",
+    "events": [
+        {
+            "emit": "onDisposing",
+            "subscribe": "disposing"
+        },
+        {
+            "emit": "onInitialized",
+            "subscribe": "initialized"
+        },
+        {
+            "emit": "onOptionChanged",
+            "subscribe": "optionChanged"
+        },
+        {
+            "emit": "onDrawn",
+            "subscribe": "drawn"
+        },
+        {
+            "emit": "onExported",
+            "subscribe": "exported"
+        },
+        {
+            "emit": "onExporting",
+            "subscribe": "exporting"
+        },
+        {
+            "emit": "onFileSaving",
+            "subscribe": "fileSaving"
+        },
+        {
+            "emit": "onIncidentOccurred",
+            "subscribe": "incidentOccurred"
+        },
+        {
+            "emit": "onAreaClick",
+            "subscribe": "areaClick"
+        },
+        {
+            "emit": "onAreaSelectionChanged",
+            "subscribe": "areaSelectionChanged"
+        },
+        {
+            "emit": "onCenterChanged",
+            "subscribe": "centerChanged"
+        },
+        {
+            "emit": "onClick",
+            "subscribe": "click"
+        },
+        {
+            "emit": "onMarkerClick",
+            "subscribe": "markerClick"
+        },
+        {
+            "emit": "onMarkerSelectionChanged",
+            "subscribe": "markerSelectionChanged"
+        },
+        {
+            "emit": "onSelectionChanged",
+            "subscribe": "selectionChanged"
+        },
+        {
+            "emit": "onTooltipHidden",
+            "subscribe": "tooltipHidden"
+        },
+        {
+            "emit": "onTooltipShown",
+            "subscribe": "tooltipShown"
+        },
+        {
+            "emit": "onZoomFactorChanged",
+            "subscribe": "zoomFactorChanged"
+        },
+        {
+            "emit": "rtlEnabledChange"
+        },
+        {
+            "emit": "exportChange"
+        },
+        {
+            "emit": "loadingIndicatorChange"
+        },
+        {
+            "emit": "pathModifiedChange"
+        },
+        {
+            "emit": "redrawOnResizeChange"
+        },
+        {
+            "emit": "sizeChange"
+        },
+        {
+            "emit": "themeChange"
+        },
+        {
+            "emit": "titleChange"
+        },
+        {
+            "emit": "tooltipChange"
+        },
+        {
+            "emit": "areaSettingsChange"
+        },
+        {
+            "emit": "backgroundChange"
+        },
+        {
+            "emit": "boundsChange"
+        },
+        {
+            "emit": "centerChange"
+        },
+        {
+            "emit": "controlBarChange"
+        },
+        {
+            "emit": "layersChange"
+        },
+        {
+            "emit": "legendsChange"
+        },
+        {
+            "emit": "mapDataChange"
+        },
+        {
+            "emit": "markersChange"
+        },
+        {
+            "emit": "markerSettingsChange"
+        },
+        {
+            "emit": "maxZoomFactorChange"
+        },
+        {
+            "emit": "panningEnabledChange"
+        },
+        {
+            "emit": "projectionChange"
+        },
+        {
+            "emit": "touchEnabledChange"
+        },
+        {
+            "emit": "wheelEnabledChange"
+        },
+        {
+            "emit": "zoomFactorChange"
+        },
+        {
+            "emit": "zoomingEnabledChange"
+        }
+    ],
+    "properties": [
+        {
+            "name": "rtlEnabled",
+            "type": "any"
+        },
+        {
+            "name": "export",
+            "type": "any"
+        },
+        {
+            "name": "loadingIndicator",
+            "type": "any"
+        },
+        {
+            "name": "pathModified",
+            "type": "any"
+        },
+        {
+            "name": "redrawOnResize",
+            "type": "any"
+        },
+        {
+            "name": "size",
+            "type": "any"
+        },
+        {
+            "name": "theme",
+            "type": "any"
+        },
+        {
+            "name": "title",
+            "type": "any"
+        },
+        {
+            "name": "tooltip",
+            "type": "any"
+        },
+        {
+            "name": "areaSettings",
+            "type": "any"
+        },
+        {
+            "name": "background",
+            "type": "any"
+        },
+        {
+            "name": "bounds",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "center",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "controlBar",
+            "type": "any"
+        },
+        {
+            "name": "layers",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "legends",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "mapData",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "markers",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "markerSettings",
+            "type": "any"
+        },
+        {
+            "name": "maxZoomFactor",
+            "type": "any"
+        },
+        {
+            "name": "panningEnabled",
+            "type": "any"
+        },
+        {
+            "name": "projection",
+            "type": "any"
+        },
+        {
+            "name": "touchEnabled",
+            "type": "any"
+        },
+        {
+            "name": "wheelEnabled",
+            "type": "any"
+        },
+        {
+            "name": "zoomFactor",
+            "type": "any"
+        },
+        {
+            "name": "zoomingEnabled",
+            "type": "any"
+        }
+    ],
+    "isEditor": false,
+    "module": "devextreme/viz/vector_map"
+}

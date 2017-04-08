@@ -1,0 +1,391 @@
+{
+    "className": "DxScheduler",
+    "widgetName": "dxScheduler",
+    "isExtension": false,
+    "selector": "dx-scheduler",
+    "events": [
+        {
+            "emit": "onDisposing",
+            "subscribe": "disposing"
+        },
+        {
+            "emit": "onInitialized",
+            "subscribe": "initialized"
+        },
+        {
+            "emit": "onOptionChanged",
+            "subscribe": "optionChanged"
+        },
+        {
+            "emit": "onContentReady",
+            "subscribe": "contentReady"
+        },
+        {
+            "emit": "onAppointmentAdded",
+            "subscribe": "appointmentAdded"
+        },
+        {
+            "emit": "onAppointmentAdding",
+            "subscribe": "appointmentAdding"
+        },
+        {
+            "emit": "onAppointmentClick",
+            "subscribe": "appointmentClick"
+        },
+        {
+            "emit": "onAppointmentDblClick",
+            "subscribe": "appointmentDblClick"
+        },
+        {
+            "emit": "onAppointmentDeleted",
+            "subscribe": "appointmentDeleted"
+        },
+        {
+            "emit": "onAppointmentDeleting",
+            "subscribe": "appointmentDeleting"
+        },
+        {
+            "emit": "onAppointmentFormCreated",
+            "subscribe": "appointmentFormCreated"
+        },
+        {
+            "emit": "onAppointmentRendered",
+            "subscribe": "appointmentRendered"
+        },
+        {
+            "emit": "onAppointmentUpdated",
+            "subscribe": "appointmentUpdated"
+        },
+        {
+            "emit": "onAppointmentUpdating",
+            "subscribe": "appointmentUpdating"
+        },
+        {
+            "emit": "onCellClick",
+            "subscribe": "cellClick"
+        },
+        {
+            "emit": "heightChange"
+        },
+        {
+            "emit": "rtlEnabledChange"
+        },
+        {
+            "emit": "widthChange"
+        },
+        {
+            "emit": "accessKeyChange"
+        },
+        {
+            "emit": "disabledChange"
+        },
+        {
+            "emit": "focusStateEnabledChange"
+        },
+        {
+            "emit": "hintChange"
+        },
+        {
+            "emit": "tabIndexChange"
+        },
+        {
+            "emit": "visibleChange"
+        },
+        {
+            "emit": "allDayExprChange"
+        },
+        {
+            "emit": "appointmentTemplateChange"
+        },
+        {
+            "emit": "appointmentTooltipTemplateChange"
+        },
+        {
+            "emit": "cellDurationChange"
+        },
+        {
+            "emit": "crossScrollingEnabledChange"
+        },
+        {
+            "emit": "currentDateChange"
+        },
+        {
+            "emit": "currentViewChange"
+        },
+        {
+            "emit": "dataCellTemplateChange"
+        },
+        {
+            "emit": "dataSourceChange"
+        },
+        {
+            "emit": "dateCellTemplateChange"
+        },
+        {
+            "emit": "descriptionExprChange"
+        },
+        {
+            "emit": "editingChange"
+        },
+        {
+            "emit": "endDateExprChange"
+        },
+        {
+            "emit": "endDateTimeZoneExprChange"
+        },
+        {
+            "emit": "endDayHourChange"
+        },
+        {
+            "emit": "firstDayOfWeekChange"
+        },
+        {
+            "emit": "groupsChange"
+        },
+        {
+            "emit": "horizontalScrollingEnabledChange"
+        },
+        {
+            "emit": "maxChange"
+        },
+        {
+            "emit": "minChange"
+        },
+        {
+            "emit": "noDataTextChange"
+        },
+        {
+            "emit": "recurrenceEditModeChange"
+        },
+        {
+            "emit": "recurrenceExceptionExprChange"
+        },
+        {
+            "emit": "recurrenceRuleExprChange"
+        },
+        {
+            "emit": "remoteFilteringChange"
+        },
+        {
+            "emit": "resourceCellTemplateChange"
+        },
+        {
+            "emit": "resourcesChange"
+        },
+        {
+            "emit": "showAllDayPanelChange"
+        },
+        {
+            "emit": "startDateExprChange"
+        },
+        {
+            "emit": "startDateTimeZoneExprChange"
+        },
+        {
+            "emit": "startDayHourChange"
+        },
+        {
+            "emit": "textExprChange"
+        },
+        {
+            "emit": "timeCellTemplateChange"
+        },
+        {
+            "emit": "timeZoneChange"
+        },
+        {
+            "emit": "useDropDownViewSwitcherChange"
+        },
+        {
+            "emit": "viewsChange"
+        }
+    ],
+    "properties": [
+        {
+            "name": "height",
+            "type": "any"
+        },
+        {
+            "name": "rtlEnabled",
+            "type": "any"
+        },
+        {
+            "name": "width",
+            "type": "any"
+        },
+        {
+            "name": "accessKey",
+            "type": "any"
+        },
+        {
+            "name": "disabled",
+            "type": "any"
+        },
+        {
+            "name": "focusStateEnabled",
+            "type": "any"
+        },
+        {
+            "name": "hint",
+            "type": "any"
+        },
+        {
+            "name": "tabIndex",
+            "type": "any"
+        },
+        {
+            "name": "visible",
+            "type": "any"
+        },
+        {
+            "name": "allDayExpr",
+            "type": "any"
+        },
+        {
+            "name": "appointmentTemplate",
+            "type": "any"
+        },
+        {
+            "name": "appointmentTooltipTemplate",
+            "type": "any"
+        },
+        {
+            "name": "cellDuration",
+            "type": "any"
+        },
+        {
+            "name": "crossScrollingEnabled",
+            "type": "any"
+        },
+        {
+            "name": "currentDate",
+            "type": "any"
+        },
+        {
+            "name": "currentView",
+            "type": "any"
+        },
+        {
+            "name": "dataCellTemplate",
+            "type": "any"
+        },
+        {
+            "name": "dataSource",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "dateCellTemplate",
+            "type": "any"
+        },
+        {
+            "name": "descriptionExpr",
+            "type": "any"
+        },
+        {
+            "name": "editing",
+            "type": "any"
+        },
+        {
+            "name": "endDateExpr",
+            "type": "any"
+        },
+        {
+            "name": "endDateTimeZoneExpr",
+            "type": "any"
+        },
+        {
+            "name": "endDayHour",
+            "type": "any"
+        },
+        {
+            "name": "firstDayOfWeek",
+            "type": "any"
+        },
+        {
+            "name": "groups",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "horizontalScrollingEnabled",
+            "type": "any"
+        },
+        {
+            "name": "max",
+            "type": "any"
+        },
+        {
+            "name": "min",
+            "type": "any"
+        },
+        {
+            "name": "noDataText",
+            "type": "any"
+        },
+        {
+            "name": "recurrenceEditMode",
+            "type": "any"
+        },
+        {
+            "name": "recurrenceExceptionExpr",
+            "type": "any"
+        },
+        {
+            "name": "recurrenceRuleExpr",
+            "type": "any"
+        },
+        {
+            "name": "remoteFiltering",
+            "type": "any"
+        },
+        {
+            "name": "resourceCellTemplate",
+            "type": "any"
+        },
+        {
+            "name": "resources",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "showAllDayPanel",
+            "type": "any"
+        },
+        {
+            "name": "startDateExpr",
+            "type": "any"
+        },
+        {
+            "name": "startDateTimeZoneExpr",
+            "type": "any"
+        },
+        {
+            "name": "startDayHour",
+            "type": "any"
+        },
+        {
+            "name": "textExpr",
+            "type": "any"
+        },
+        {
+            "name": "timeCellTemplate",
+            "type": "any"
+        },
+        {
+            "name": "timeZone",
+            "type": "any"
+        },
+        {
+            "name": "useDropDownViewSwitcher",
+            "type": "any"
+        },
+        {
+            "name": "views",
+            "type": "any",
+            "isCollection": true
+        }
+    ],
+    "isEditor": false,
+    "module": "devextreme/ui/scheduler"
+}

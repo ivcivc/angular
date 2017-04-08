@@ -1,0 +1,249 @@
+{
+    "className": "DxSparkline",
+    "widgetName": "dxSparkline",
+    "isExtension": false,
+    "selector": "dx-sparkline",
+    "events": [
+        {
+            "emit": "onDisposing",
+            "subscribe": "disposing"
+        },
+        {
+            "emit": "onInitialized",
+            "subscribe": "initialized"
+        },
+        {
+            "emit": "onOptionChanged",
+            "subscribe": "optionChanged"
+        },
+        {
+            "emit": "onDrawn",
+            "subscribe": "drawn"
+        },
+        {
+            "emit": "onExported",
+            "subscribe": "exported"
+        },
+        {
+            "emit": "onExporting",
+            "subscribe": "exporting"
+        },
+        {
+            "emit": "onFileSaving",
+            "subscribe": "fileSaving"
+        },
+        {
+            "emit": "onIncidentOccurred",
+            "subscribe": "incidentOccurred"
+        },
+        {
+            "emit": "onTooltipHidden",
+            "subscribe": "tooltipHidden"
+        },
+        {
+            "emit": "onTooltipShown",
+            "subscribe": "tooltipShown"
+        },
+        {
+            "emit": "rtlEnabledChange"
+        },
+        {
+            "emit": "marginChange"
+        },
+        {
+            "emit": "pathModifiedChange"
+        },
+        {
+            "emit": "sizeChange"
+        },
+        {
+            "emit": "themeChange"
+        },
+        {
+            "emit": "tooltipChange"
+        },
+        {
+            "emit": "argumentFieldChange"
+        },
+        {
+            "emit": "barNegativeColorChange"
+        },
+        {
+            "emit": "barPositiveColorChange"
+        },
+        {
+            "emit": "dataSourceChange"
+        },
+        {
+            "emit": "firstLastColorChange"
+        },
+        {
+            "emit": "ignoreEmptyPointsChange"
+        },
+        {
+            "emit": "lineColorChange"
+        },
+        {
+            "emit": "lineWidthChange"
+        },
+        {
+            "emit": "lossColorChange"
+        },
+        {
+            "emit": "maxColorChange"
+        },
+        {
+            "emit": "maxValueChange"
+        },
+        {
+            "emit": "minColorChange"
+        },
+        {
+            "emit": "minValueChange"
+        },
+        {
+            "emit": "pointColorChange"
+        },
+        {
+            "emit": "pointSizeChange"
+        },
+        {
+            "emit": "pointSymbolChange"
+        },
+        {
+            "emit": "showFirstLastChange"
+        },
+        {
+            "emit": "showMinMaxChange"
+        },
+        {
+            "emit": "typeChange"
+        },
+        {
+            "emit": "valueFieldChange"
+        },
+        {
+            "emit": "winColorChange"
+        },
+        {
+            "emit": "winlossThresholdChange"
+        }
+    ],
+    "properties": [
+        {
+            "name": "rtlEnabled",
+            "type": "any"
+        },
+        {
+            "name": "margin",
+            "type": "any"
+        },
+        {
+            "name": "pathModified",
+            "type": "any"
+        },
+        {
+            "name": "size",
+            "type": "any"
+        },
+        {
+            "name": "theme",
+            "type": "any"
+        },
+        {
+            "name": "tooltip",
+            "type": "any"
+        },
+        {
+            "name": "argumentField",
+            "type": "any"
+        },
+        {
+            "name": "barNegativeColor",
+            "type": "any"
+        },
+        {
+            "name": "barPositiveColor",
+            "type": "any"
+        },
+        {
+            "name": "dataSource",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "firstLastColor",
+            "type": "any"
+        },
+        {
+            "name": "ignoreEmptyPoints",
+            "type": "any"
+        },
+        {
+            "name": "lineColor",
+            "type": "any"
+        },
+        {
+            "name": "lineWidth",
+            "type": "any"
+        },
+        {
+            "name": "lossColor",
+            "type": "any"
+        },
+        {
+            "name": "maxColor",
+            "type": "any"
+        },
+        {
+            "name": "maxValue",
+            "type": "any"
+        },
+        {
+            "name": "minColor",
+            "type": "any"
+        },
+        {
+            "name": "minValue",
+            "type": "any"
+        },
+        {
+            "name": "pointColor",
+            "type": "any"
+        },
+        {
+            "name": "pointSize",
+            "type": "any"
+        },
+        {
+            "name": "pointSymbol",
+            "type": "any"
+        },
+        {
+            "name": "showFirstLast",
+            "type": "any"
+        },
+        {
+            "name": "showMinMax",
+            "type": "any"
+        },
+        {
+            "name": "type",
+            "type": "any"
+        },
+        {
+            "name": "valueField",
+            "type": "any"
+        },
+        {
+            "name": "winColor",
+            "type": "any"
+        },
+        {
+            "name": "winlossThreshold",
+            "type": "any"
+        }
+    ],
+    "isEditor": false,
+    "module": "devextreme/viz/sparkline"
+}

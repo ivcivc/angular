@@ -1,0 +1,39 @@
+{
+    "className": "DxValidationGroup",
+    "widgetName": "dxValidationGroup",
+    "isTranscludedContent": true,
+    "isExtension": false,
+    "selector": "dx-validation-group",
+    "events": [
+        {
+            "emit": "onDisposing",
+            "subscribe": "disposing"
+        },
+        {
+            "emit": "onInitialized",
+            "subscribe": "initialized"
+        },
+        {
+            "emit": "onOptionChanged",
+            "subscribe": "optionChanged"
+        },
+        {
+            "emit": "heightChange"
+        },
+        {
+            "emit": "widthChange"
+        }
+    ],
+    "properties": [
+        {
+            "name": "height",
+            "type": "any"
+        },
+        {
+            "name": "width",
+            "type": "any"
+        }
+    ],
+    "isEditor": false,
+    "module": "devextreme/ui/validation_group"
+}

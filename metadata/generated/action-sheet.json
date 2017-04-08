@@ -1,0 +1,169 @@
+{
+    "className": "DxActionSheet",
+    "widgetName": "dxActionSheet",
+    "isExtension": false,
+    "selector": "dx-action-sheet",
+    "events": [
+        {
+            "emit": "onDisposing",
+            "subscribe": "disposing"
+        },
+        {
+            "emit": "onInitialized",
+            "subscribe": "initialized"
+        },
+        {
+            "emit": "onOptionChanged",
+            "subscribe": "optionChanged"
+        },
+        {
+            "emit": "onContentReady",
+            "subscribe": "contentReady"
+        },
+        {
+            "emit": "onItemClick",
+            "subscribe": "itemClick"
+        },
+        {
+            "emit": "onItemContextMenu",
+            "subscribe": "itemContextMenu"
+        },
+        {
+            "emit": "onItemHold",
+            "subscribe": "itemHold"
+        },
+        {
+            "emit": "onItemRendered",
+            "subscribe": "itemRendered"
+        },
+        {
+            "emit": "onCancelClick",
+            "subscribe": "cancelClick"
+        },
+        {
+            "emit": "heightChange"
+        },
+        {
+            "emit": "rtlEnabledChange"
+        },
+        {
+            "emit": "widthChange"
+        },
+        {
+            "emit": "disabledChange"
+        },
+        {
+            "emit": "hintChange"
+        },
+        {
+            "emit": "hoverStateEnabledChange"
+        },
+        {
+            "emit": "visibleChange"
+        },
+        {
+            "emit": "dataSourceChange"
+        },
+        {
+            "emit": "itemHoldTimeoutChange"
+        },
+        {
+            "emit": "itemTemplateChange"
+        },
+        {
+            "emit": "itemsChange"
+        },
+        {
+            "emit": "cancelTextChange"
+        },
+        {
+            "emit": "showCancelButtonChange"
+        },
+        {
+            "emit": "showTitleChange"
+        },
+        {
+            "emit": "targetChange"
+        },
+        {
+            "emit": "titleChange"
+        },
+        {
+            "emit": "usePopoverChange"
+        }
+    ],
+    "properties": [
+        {
+            "name": "height",
+            "type": "any"
+        },
+        {
+            "name": "rtlEnabled",
+            "type": "any"
+        },
+        {
+            "name": "width",
+            "type": "any"
+        },
+        {
+            "name": "disabled",
+            "type": "any"
+        },
+        {
+            "name": "hint",
+            "type": "any"
+        },
+        {
+            "name": "hoverStateEnabled",
+            "type": "any"
+        },
+        {
+            "name": "visible",
+            "type": "any"
+        },
+        {
+            "name": "dataSource",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "itemHoldTimeout",
+            "type": "any"
+        },
+        {
+            "name": "itemTemplate",
+            "type": "any"
+        },
+        {
+            "name": "items",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "cancelText",
+            "type": "any"
+        },
+        {
+            "name": "showCancelButton",
+            "type": "any"
+        },
+        {
+            "name": "showTitle",
+            "type": "any"
+        },
+        {
+            "name": "target",
+            "type": "any"
+        },
+        {
+            "name": "title",
+            "type": "any"
+        },
+        {
+            "name": "usePopover",
+            "type": "any"
+        }
+    ],
+    "isEditor": false,
+    "module": "devextreme/ui/action_sheet"
+}

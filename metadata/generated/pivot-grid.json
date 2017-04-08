@@ -1,0 +1,269 @@
+{
+    "className": "DxPivotGrid",
+    "widgetName": "dxPivotGrid",
+    "isExtension": false,
+    "selector": "dx-pivot-grid",
+    "events": [
+        {
+            "emit": "onDisposing",
+            "subscribe": "disposing"
+        },
+        {
+            "emit": "onInitialized",
+            "subscribe": "initialized"
+        },
+        {
+            "emit": "onOptionChanged",
+            "subscribe": "optionChanged"
+        },
+        {
+            "emit": "onContentReady",
+            "subscribe": "contentReady"
+        },
+        {
+            "emit": "onCellClick",
+            "subscribe": "cellClick"
+        },
+        {
+            "emit": "onCellPrepared",
+            "subscribe": "cellPrepared"
+        },
+        {
+            "emit": "onContextMenuPreparing",
+            "subscribe": "contextMenuPreparing"
+        },
+        {
+            "emit": "onExported",
+            "subscribe": "exported"
+        },
+        {
+            "emit": "onExporting",
+            "subscribe": "exporting"
+        },
+        {
+            "emit": "onFileSaving",
+            "subscribe": "fileSaving"
+        },
+        {
+            "emit": "heightChange"
+        },
+        {
+            "emit": "rtlEnabledChange"
+        },
+        {
+            "emit": "widthChange"
+        },
+        {
+            "emit": "disabledChange"
+        },
+        {
+            "emit": "focusStateEnabledChange"
+        },
+        {
+            "emit": "hintChange"
+        },
+        {
+            "emit": "tabIndexChange"
+        },
+        {
+            "emit": "visibleChange"
+        },
+        {
+            "emit": "allowExpandAllChange"
+        },
+        {
+            "emit": "allowFilteringChange"
+        },
+        {
+            "emit": "allowSortingChange"
+        },
+        {
+            "emit": "allowSortingBySummaryChange"
+        },
+        {
+            "emit": "dataFieldAreaChange"
+        },
+        {
+            "emit": "dataSourceChange"
+        },
+        {
+            "emit": "exportChange"
+        },
+        {
+            "emit": "fieldChooserChange"
+        },
+        {
+            "emit": "fieldPanelChange"
+        },
+        {
+            "emit": "hideEmptySummaryCellsChange"
+        },
+        {
+            "emit": "loadPanelChange"
+        },
+        {
+            "emit": "rowHeaderLayoutChange"
+        },
+        {
+            "emit": "scrollingChange"
+        },
+        {
+            "emit": "showBordersChange"
+        },
+        {
+            "emit": "showColumnGrandTotalsChange"
+        },
+        {
+            "emit": "showColumnTotalsChange"
+        },
+        {
+            "emit": "showRowGrandTotalsChange"
+        },
+        {
+            "emit": "showRowTotalsChange"
+        },
+        {
+            "emit": "showTotalsPriorChange"
+        },
+        {
+            "emit": "stateStoringChange"
+        },
+        {
+            "emit": "textsChange"
+        },
+        {
+            "emit": "useNativeScrollingChange"
+        },
+        {
+            "emit": "wordWrapEnabledChange"
+        }
+    ],
+    "properties": [
+        {
+            "name": "height",
+            "type": "any"
+        },
+        {
+            "name": "rtlEnabled",
+            "type": "any"
+        },
+        {
+            "name": "width",
+            "type": "any"
+        },
+        {
+            "name": "disabled",
+            "type": "any"
+        },
+        {
+            "name": "focusStateEnabled",
+            "type": "any"
+        },
+        {
+            "name": "hint",
+            "type": "any"
+        },
+        {
+            "name": "tabIndex",
+            "type": "any"
+        },
+        {
+            "name": "visible",
+            "type": "any"
+        },
+        {
+            "name": "allowExpandAll",
+            "type": "any"
+        },
+        {
+            "name": "allowFiltering",
+            "type": "any"
+        },
+        {
+            "name": "allowSorting",
+            "type": "any"
+        },
+        {
+            "name": "allowSortingBySummary",
+            "type": "any"
+        },
+        {
+            "name": "dataFieldArea",
+            "type": "any"
+        },
+        {
+            "name": "dataSource",
+            "type": "any"
+        },
+        {
+            "name": "export",
+            "type": "any"
+        },
+        {
+            "name": "fieldChooser",
+            "type": "any"
+        },
+        {
+            "name": "fieldPanel",
+            "type": "any"
+        },
+        {
+            "name": "hideEmptySummaryCells",
+            "type": "any"
+        },
+        {
+            "name": "loadPanel",
+            "type": "any"
+        },
+        {
+            "name": "rowHeaderLayout",
+            "type": "any"
+        },
+        {
+            "name": "scrolling",
+            "type": "any"
+        },
+        {
+            "name": "showBorders",
+            "type": "any"
+        },
+        {
+            "name": "showColumnGrandTotals",
+            "type": "any"
+        },
+        {
+            "name": "showColumnTotals",
+            "type": "any"
+        },
+        {
+            "name": "showRowGrandTotals",
+            "type": "any"
+        },
+        {
+            "name": "showRowTotals",
+            "type": "any"
+        },
+        {
+            "name": "showTotalsPrior",
+            "type": "any"
+        },
+        {
+            "name": "stateStoring",
+            "type": "any"
+        },
+        {
+            "name": "texts",
+            "type": "any"
+        },
+        {
+            "name": "useNativeScrolling",
+            "type": "any"
+        },
+        {
+            "name": "wordWrapEnabled",
+            "type": "any"
+        }
+    ],
+    "isEditor": false,
+    "module": "devextreme/ui/pivot_grid"
+}

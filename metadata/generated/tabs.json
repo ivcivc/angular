@@ -1,0 +1,198 @@
+{
+    "className": "DxTab",
+    "widgetName": "dxTabs",
+    "isExtension": false,
+    "selector": "dx-tabs",
+    "events": [
+        {
+            "emit": "onDisposing",
+            "subscribe": "disposing"
+        },
+        {
+            "emit": "onInitialized",
+            "subscribe": "initialized"
+        },
+        {
+            "emit": "onOptionChanged",
+            "subscribe": "optionChanged"
+        },
+        {
+            "emit": "onContentReady",
+            "subscribe": "contentReady"
+        },
+        {
+            "emit": "onItemClick",
+            "subscribe": "itemClick"
+        },
+        {
+            "emit": "onItemContextMenu",
+            "subscribe": "itemContextMenu"
+        },
+        {
+            "emit": "onItemHold",
+            "subscribe": "itemHold"
+        },
+        {
+            "emit": "onItemRendered",
+            "subscribe": "itemRendered"
+        },
+        {
+            "emit": "onSelectionChanged",
+            "subscribe": "selectionChanged"
+        },
+        {
+            "emit": "heightChange"
+        },
+        {
+            "emit": "rtlEnabledChange"
+        },
+        {
+            "emit": "widthChange"
+        },
+        {
+            "emit": "accessKeyChange"
+        },
+        {
+            "emit": "disabledChange"
+        },
+        {
+            "emit": "focusStateEnabledChange"
+        },
+        {
+            "emit": "hintChange"
+        },
+        {
+            "emit": "hoverStateEnabledChange"
+        },
+        {
+            "emit": "tabIndexChange"
+        },
+        {
+            "emit": "visibleChange"
+        },
+        {
+            "emit": "dataSourceChange"
+        },
+        {
+            "emit": "itemHoldTimeoutChange"
+        },
+        {
+            "emit": "itemTemplateChange"
+        },
+        {
+            "emit": "selectedIndexChange"
+        },
+        {
+            "emit": "selectedItemChange"
+        },
+        {
+            "emit": "selectedItemsChange"
+        },
+        {
+            "emit": "selectionModeChange"
+        },
+        {
+            "emit": "itemsChange"
+        },
+        {
+            "emit": "scrollByContentChange"
+        },
+        {
+            "emit": "scrollingEnabledChange"
+        },
+        {
+            "emit": "showNavButtonsChange"
+        }
+    ],
+    "properties": [
+        {
+            "name": "height",
+            "type": "any"
+        },
+        {
+            "name": "rtlEnabled",
+            "type": "any"
+        },
+        {
+            "name": "width",
+            "type": "any"
+        },
+        {
+            "name": "accessKey",
+            "type": "any"
+        },
+        {
+            "name": "disabled",
+            "type": "any"
+        },
+        {
+            "name": "focusStateEnabled",
+            "type": "any"
+        },
+        {
+            "name": "hint",
+            "type": "any"
+        },
+        {
+            "name": "hoverStateEnabled",
+            "type": "any"
+        },
+        {
+            "name": "tabIndex",
+            "type": "any"
+        },
+        {
+            "name": "visible",
+            "type": "any"
+        },
+        {
+            "name": "dataSource",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "itemHoldTimeout",
+            "type": "any"
+        },
+        {
+            "name": "itemTemplate",
+            "type": "any"
+        },
+        {
+            "name": "selectedIndex",
+            "type": "any"
+        },
+        {
+            "name": "selectedItem",
+            "type": "any"
+        },
+        {
+            "name": "selectedItems",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "selectionMode",
+            "type": "any"
+        },
+        {
+            "name": "items",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "scrollByContent",
+            "type": "any"
+        },
+        {
+            "name": "scrollingEnabled",
+            "type": "any"
+        },
+        {
+            "name": "showNavButtons",
+            "type": "any"
+        }
+    ],
+    "isEditor": false,
+    "module": "devextreme/ui/tabs"
+}

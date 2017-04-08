@@ -1,0 +1,93 @@
+{
+    "className": "DxResizable",
+    "widgetName": "dxResizable",
+    "isTranscludedContent": true,
+    "isExtension": false,
+    "selector": "dx-resizable",
+    "events": [
+        {
+            "emit": "onDisposing",
+            "subscribe": "disposing"
+        },
+        {
+            "emit": "onInitialized",
+            "subscribe": "initialized"
+        },
+        {
+            "emit": "onOptionChanged",
+            "subscribe": "optionChanged"
+        },
+        {
+            "emit": "onResize",
+            "subscribe": "resize"
+        },
+        {
+            "emit": "onResizeEnd",
+            "subscribe": "resizeEnd"
+        },
+        {
+            "emit": "onResizeStart",
+            "subscribe": "resizeStart"
+        },
+        {
+            "emit": "heightChange"
+        },
+        {
+            "emit": "rtlEnabledChange"
+        },
+        {
+            "emit": "widthChange"
+        },
+        {
+            "emit": "handlesChange"
+        },
+        {
+            "emit": "maxHeightChange"
+        },
+        {
+            "emit": "maxWidthChange"
+        },
+        {
+            "emit": "minHeightChange"
+        },
+        {
+            "emit": "minWidthChange"
+        }
+    ],
+    "properties": [
+        {
+            "name": "height",
+            "type": "any"
+        },
+        {
+            "name": "rtlEnabled",
+            "type": "any"
+        },
+        {
+            "name": "width",
+            "type": "any"
+        },
+        {
+            "name": "handles",
+            "type": "any"
+        },
+        {
+            "name": "maxHeight",
+            "type": "any"
+        },
+        {
+            "name": "maxWidth",
+            "type": "any"
+        },
+        {
+            "name": "minHeight",
+            "type": "any"
+        },
+        {
+            "name": "minWidth",
+            "type": "any"
+        }
+    ],
+    "isEditor": false,
+    "module": "devextreme/ui/resizable"
+}

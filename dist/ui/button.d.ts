@@ -1,0 +1,53 @@
+import { ElementRef, EventEmitter, NgZone } from '@angular/core';
+import DxButton from 'devextreme/ui/button';
+import { DxComponent } from '../core/dx.component';
+import { DxTemplateHost } from '../core/dx.template-host';
+import { WatcherHelper } from '../core/watcher-helper';
+export declare class DxButtonComponent extends DxComponent {
+    private _watcherHelper;
+    instance: DxButton;
+    height: any;
+    rtlEnabled: any;
+    width: any;
+    accessKey: any;
+    activeStateEnabled: any;
+    disabled: any;
+    focusStateEnabled: any;
+    hint: any;
+    hoverStateEnabled: any;
+    tabIndex: any;
+    visible: any;
+    icon: any;
+    iconSrc: any;
+    template: any;
+    text: any;
+    type: any;
+    useSubmitBehavior: any;
+    validationGroup: any;
+    onDisposing: EventEmitter<any>;
+    onInitialized: EventEmitter<any>;
+    onOptionChanged: EventEmitter<any>;
+    onClick: EventEmitter<any>;
+    heightChange: EventEmitter<any>;
+    rtlEnabledChange: EventEmitter<any>;
+    widthChange: EventEmitter<any>;
+    accessKeyChange: EventEmitter<any>;
+    activeStateEnabledChange: EventEmitter<any>;
+    disabledChange: EventEmitter<any>;
+    focusStateEnabledChange: EventEmitter<any>;
+    hintChange: EventEmitter<any>;
+    hoverStateEnabledChange: EventEmitter<any>;
+    tabIndexChange: EventEmitter<any>;
+    visibleChange: EventEmitter<any>;
+    iconChange: EventEmitter<any>;
+    iconSrcChange: EventEmitter<any>;
+    templateChange: EventEmitter<any>;
+    textChange: EventEmitter<any>;
+    typeChange: EventEmitter<any>;
+    useSubmitBehaviorChange: EventEmitter<any>;
+    validationGroupChange: EventEmitter<any>;
+    constructor(elementRef: ElementRef, ngZone: NgZone, templateHost: DxTemplateHost, _watcherHelper: WatcherHelper);
+    protected _createInstance(element: any, options: any): DxButton;
+}
+export declare class DxButtonModule {
+}

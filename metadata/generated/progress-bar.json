@@ -1,0 +1,144 @@
+{
+    "className": "DxProgressBar",
+    "widgetName": "dxProgressBar",
+    "isExtension": false,
+    "selector": "dx-progress-bar",
+    "events": [
+        {
+            "emit": "onDisposing",
+            "subscribe": "disposing"
+        },
+        {
+            "emit": "onInitialized",
+            "subscribe": "initialized"
+        },
+        {
+            "emit": "onOptionChanged",
+            "subscribe": "optionChanged"
+        },
+        {
+            "emit": "onValueChanged",
+            "subscribe": "valueChanged"
+        },
+        {
+            "emit": "onComplete",
+            "subscribe": "complete"
+        },
+        {
+            "emit": "heightChange"
+        },
+        {
+            "emit": "rtlEnabledChange"
+        },
+        {
+            "emit": "widthChange"
+        },
+        {
+            "emit": "disabledChange"
+        },
+        {
+            "emit": "hintChange"
+        },
+        {
+            "emit": "hoverStateEnabledChange"
+        },
+        {
+            "emit": "visibleChange"
+        },
+        {
+            "emit": "isValidChange"
+        },
+        {
+            "emit": "readOnlyChange"
+        },
+        {
+            "emit": "validationErrorChange"
+        },
+        {
+            "emit": "validationMessageModeChange"
+        },
+        {
+            "emit": "valueChange"
+        },
+        {
+            "emit": "maxChange"
+        },
+        {
+            "emit": "minChange"
+        },
+        {
+            "emit": "showStatusChange"
+        },
+        {
+            "emit": "statusFormatChange"
+        }
+    ],
+    "properties": [
+        {
+            "name": "height",
+            "type": "any"
+        },
+        {
+            "name": "rtlEnabled",
+            "type": "any"
+        },
+        {
+            "name": "width",
+            "type": "any"
+        },
+        {
+            "name": "disabled",
+            "type": "any"
+        },
+        {
+            "name": "hint",
+            "type": "any"
+        },
+        {
+            "name": "hoverStateEnabled",
+            "type": "any"
+        },
+        {
+            "name": "visible",
+            "type": "any"
+        },
+        {
+            "name": "isValid",
+            "type": "any"
+        },
+        {
+            "name": "readOnly",
+            "type": "any"
+        },
+        {
+            "name": "validationError",
+            "type": "any"
+        },
+        {
+            "name": "validationMessageMode",
+            "type": "any"
+        },
+        {
+            "name": "value",
+            "type": "any"
+        },
+        {
+            "name": "max",
+            "type": "any"
+        },
+        {
+            "name": "min",
+            "type": "any"
+        },
+        {
+            "name": "showStatus",
+            "type": "any"
+        },
+        {
+            "name": "statusFormat",
+            "type": "any"
+        }
+    ],
+    "isEditor": true,
+    "module": "devextreme/ui/progress_bar"
+}

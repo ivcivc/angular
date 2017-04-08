@@ -1,0 +1,49 @@
+{
+    "className": "DxDeferRendering",
+    "widgetName": "dxDeferRendering",
+    "isTranscludedContent": true,
+    "isExtension": false,
+    "selector": "dx-defer-rendering",
+    "events": [
+        {
+            "emit": "onRendered",
+            "subscribe": "rendered"
+        },
+        {
+            "emit": "onShown",
+            "subscribe": "shown"
+        },
+        {
+            "emit": "renderWhenChange"
+        },
+        {
+            "emit": "showLoadIndicatorChange"
+        },
+        {
+            "emit": "staggerItemSelectorChange"
+        },
+        {
+            "emit": "animationChange"
+        }
+    ],
+    "properties": [
+        {
+            "name": "renderWhen",
+            "type": "any"
+        },
+        {
+            "name": "showLoadIndicator",
+            "type": "any"
+        },
+        {
+            "name": "staggerItemSelector",
+            "type": "any"
+        },
+        {
+            "name": "animation",
+            "type": "any"
+        }
+    ],
+    "isEditor": false,
+    "module": "devextreme/ui/defer_rendering"
+}

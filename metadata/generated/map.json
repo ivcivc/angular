@@ -1,0 +1,198 @@
+{
+    "className": "DxMap",
+    "widgetName": "dxMap",
+    "isExtension": false,
+    "selector": "dx-map",
+    "events": [
+        {
+            "emit": "onDisposing",
+            "subscribe": "disposing"
+        },
+        {
+            "emit": "onInitialized",
+            "subscribe": "initialized"
+        },
+        {
+            "emit": "onOptionChanged",
+            "subscribe": "optionChanged"
+        },
+        {
+            "emit": "onClick",
+            "subscribe": "click"
+        },
+        {
+            "emit": "onMarkerAdded",
+            "subscribe": "markerAdded"
+        },
+        {
+            "emit": "onMarkerRemoved",
+            "subscribe": "markerRemoved"
+        },
+        {
+            "emit": "onReady",
+            "subscribe": "ready"
+        },
+        {
+            "emit": "onRouteAdded",
+            "subscribe": "routeAdded"
+        },
+        {
+            "emit": "onRouteRemoved",
+            "subscribe": "routeRemoved"
+        },
+        {
+            "emit": "heightChange"
+        },
+        {
+            "emit": "rtlEnabledChange"
+        },
+        {
+            "emit": "widthChange"
+        },
+        {
+            "emit": "accessKeyChange"
+        },
+        {
+            "emit": "activeStateEnabledChange"
+        },
+        {
+            "emit": "disabledChange"
+        },
+        {
+            "emit": "focusStateEnabledChange"
+        },
+        {
+            "emit": "hintChange"
+        },
+        {
+            "emit": "hoverStateEnabledChange"
+        },
+        {
+            "emit": "tabIndexChange"
+        },
+        {
+            "emit": "visibleChange"
+        },
+        {
+            "emit": "autoAdjustChange"
+        },
+        {
+            "emit": "centerChange"
+        },
+        {
+            "emit": "controlsChange"
+        },
+        {
+            "emit": "keyChange"
+        },
+        {
+            "emit": "markerIconSrcChange"
+        },
+        {
+            "emit": "markersChange"
+        },
+        {
+            "emit": "providerChange"
+        },
+        {
+            "emit": "routesChange"
+        },
+        {
+            "emit": "typeChange"
+        },
+        {
+            "emit": "zoomChange"
+        }
+    ],
+    "properties": [
+        {
+            "name": "height",
+            "type": "any"
+        },
+        {
+            "name": "rtlEnabled",
+            "type": "any"
+        },
+        {
+            "name": "width",
+            "type": "any"
+        },
+        {
+            "name": "accessKey",
+            "type": "any"
+        },
+        {
+            "name": "activeStateEnabled",
+            "type": "any"
+        },
+        {
+            "name": "disabled",
+            "type": "any"
+        },
+        {
+            "name": "focusStateEnabled",
+            "type": "any"
+        },
+        {
+            "name": "hint",
+            "type": "any"
+        },
+        {
+            "name": "hoverStateEnabled",
+            "type": "any"
+        },
+        {
+            "name": "tabIndex",
+            "type": "any"
+        },
+        {
+            "name": "visible",
+            "type": "any"
+        },
+        {
+            "name": "autoAdjust",
+            "type": "any"
+        },
+        {
+            "name": "center",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "controls",
+            "type": "any"
+        },
+        {
+            "name": "key",
+            "type": "any"
+        },
+        {
+            "name": "markerIconSrc",
+            "type": "any"
+        },
+        {
+            "name": "markers",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "provider",
+            "type": "any"
+        },
+        {
+            "name": "routes",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "type",
+            "type": "any"
+        },
+        {
+            "name": "zoom",
+            "type": "any"
+        }
+    ],
+    "isEditor": false,
+    "module": "devextreme/ui/map"
+}

@@ -1,0 +1,139 @@
+{
+    "className": "DxScrollView",
+    "widgetName": "dxScrollView",
+    "isTranscludedContent": true,
+    "isExtension": false,
+    "selector": "dx-scroll-view",
+    "events": [
+        {
+            "emit": "onDisposing",
+            "subscribe": "disposing"
+        },
+        {
+            "emit": "onInitialized",
+            "subscribe": "initialized"
+        },
+        {
+            "emit": "onOptionChanged",
+            "subscribe": "optionChanged"
+        },
+        {
+            "emit": "onScroll",
+            "subscribe": "scroll"
+        },
+        {
+            "emit": "onUpdated",
+            "subscribe": "updated"
+        },
+        {
+            "emit": "onPullDown",
+            "subscribe": "pullDown"
+        },
+        {
+            "emit": "onReachBottom",
+            "subscribe": "reachBottom"
+        },
+        {
+            "emit": "heightChange"
+        },
+        {
+            "emit": "rtlEnabledChange"
+        },
+        {
+            "emit": "widthChange"
+        },
+        {
+            "emit": "bounceEnabledChange"
+        },
+        {
+            "emit": "directionChange"
+        },
+        {
+            "emit": "disabledChange"
+        },
+        {
+            "emit": "scrollByContentChange"
+        },
+        {
+            "emit": "scrollByThumbChange"
+        },
+        {
+            "emit": "showScrollbarChange"
+        },
+        {
+            "emit": "useNativeChange"
+        },
+        {
+            "emit": "pulledDownTextChange"
+        },
+        {
+            "emit": "pullingDownTextChange"
+        },
+        {
+            "emit": "reachBottomTextChange"
+        },
+        {
+            "emit": "refreshingTextChange"
+        }
+    ],
+    "properties": [
+        {
+            "name": "height",
+            "type": "any"
+        },
+        {
+            "name": "rtlEnabled",
+            "type": "any"
+        },
+        {
+            "name": "width",
+            "type": "any"
+        },
+        {
+            "name": "bounceEnabled",
+            "type": "any"
+        },
+        {
+            "name": "direction",
+            "type": "any"
+        },
+        {
+            "name": "disabled",
+            "type": "any"
+        },
+        {
+            "name": "scrollByContent",
+            "type": "any"
+        },
+        {
+            "name": "scrollByThumb",
+            "type": "any"
+        },
+        {
+            "name": "showScrollbar",
+            "type": "any"
+        },
+        {
+            "name": "useNative",
+            "type": "any"
+        },
+        {
+            "name": "pulledDownText",
+            "type": "any"
+        },
+        {
+            "name": "pullingDownText",
+            "type": "any"
+        },
+        {
+            "name": "reachBottomText",
+            "type": "any"
+        },
+        {
+            "name": "refreshingText",
+            "type": "any"
+        }
+    ],
+    "isEditor": false,
+    "module": "devextreme/ui/scroll_view"
+}

@@ -1,0 +1,409 @@
+{
+    "className": "DxChart",
+    "widgetName": "dxChart",
+    "isExtension": false,
+    "selector": "dx-chart",
+    "events": [
+        {
+            "emit": "onDisposing",
+            "subscribe": "disposing"
+        },
+        {
+            "emit": "onInitialized",
+            "subscribe": "initialized"
+        },
+        {
+            "emit": "onOptionChanged",
+            "subscribe": "optionChanged"
+        },
+        {
+            "emit": "onDrawn",
+            "subscribe": "drawn"
+        },
+        {
+            "emit": "onExported",
+            "subscribe": "exported"
+        },
+        {
+            "emit": "onExporting",
+            "subscribe": "exporting"
+        },
+        {
+            "emit": "onFileSaving",
+            "subscribe": "fileSaving"
+        },
+        {
+            "emit": "onIncidentOccurred",
+            "subscribe": "incidentOccurred"
+        },
+        {
+            "emit": "onDone",
+            "subscribe": "done"
+        },
+        {
+            "emit": "onPointClick",
+            "subscribe": "pointClick"
+        },
+        {
+            "emit": "onPointHoverChanged",
+            "subscribe": "pointHoverChanged"
+        },
+        {
+            "emit": "onPointSelectionChanged",
+            "subscribe": "pointSelectionChanged"
+        },
+        {
+            "emit": "onTooltipHidden",
+            "subscribe": "tooltipHidden"
+        },
+        {
+            "emit": "onTooltipShown",
+            "subscribe": "tooltipShown"
+        },
+        {
+            "emit": "onArgumentAxisClick",
+            "subscribe": "argumentAxisClick"
+        },
+        {
+            "emit": "onLegendClick",
+            "subscribe": "legendClick"
+        },
+        {
+            "emit": "onSeriesClick",
+            "subscribe": "seriesClick"
+        },
+        {
+            "emit": "onSeriesHoverChanged",
+            "subscribe": "seriesHoverChanged"
+        },
+        {
+            "emit": "onSeriesSelectionChanged",
+            "subscribe": "seriesSelectionChanged"
+        },
+        {
+            "emit": "onZoomEnd",
+            "subscribe": "zoomEnd"
+        },
+        {
+            "emit": "onZoomStart",
+            "subscribe": "zoomStart"
+        },
+        {
+            "emit": "rtlEnabledChange"
+        },
+        {
+            "emit": "exportChange"
+        },
+        {
+            "emit": "loadingIndicatorChange"
+        },
+        {
+            "emit": "marginChange"
+        },
+        {
+            "emit": "pathModifiedChange"
+        },
+        {
+            "emit": "redrawOnResizeChange"
+        },
+        {
+            "emit": "sizeChange"
+        },
+        {
+            "emit": "themeChange"
+        },
+        {
+            "emit": "titleChange"
+        },
+        {
+            "emit": "tooltipChange"
+        },
+        {
+            "emit": "adaptiveLayoutChange"
+        },
+        {
+            "emit": "animationChange"
+        },
+        {
+            "emit": "customizeLabelChange"
+        },
+        {
+            "emit": "customizePointChange"
+        },
+        {
+            "emit": "dataSourceChange"
+        },
+        {
+            "emit": "legendChange"
+        },
+        {
+            "emit": "paletteChange"
+        },
+        {
+            "emit": "pointSelectionModeChange"
+        },
+        {
+            "emit": "adjustOnZoomChange"
+        },
+        {
+            "emit": "argumentAxisChange"
+        },
+        {
+            "emit": "barWidthChange"
+        },
+        {
+            "emit": "commonAxisSettingsChange"
+        },
+        {
+            "emit": "commonPaneSettingsChange"
+        },
+        {
+            "emit": "commonSeriesSettingsChange"
+        },
+        {
+            "emit": "containerBackgroundColorChange"
+        },
+        {
+            "emit": "crosshairChange"
+        },
+        {
+            "emit": "dataPrepareSettingsChange"
+        },
+        {
+            "emit": "defaultPaneChange"
+        },
+        {
+            "emit": "equalBarWidthChange"
+        },
+        {
+            "emit": "maxBubbleSizeChange"
+        },
+        {
+            "emit": "minBubbleSizeChange"
+        },
+        {
+            "emit": "negativesAsZeroesChange"
+        },
+        {
+            "emit": "panesChange"
+        },
+        {
+            "emit": "resolveLabelOverlappingChange"
+        },
+        {
+            "emit": "rotatedChange"
+        },
+        {
+            "emit": "scrollBarChange"
+        },
+        {
+            "emit": "scrollingModeChange"
+        },
+        {
+            "emit": "seriesChange"
+        },
+        {
+            "emit": "seriesSelectionModeChange"
+        },
+        {
+            "emit": "seriesTemplateChange"
+        },
+        {
+            "emit": "synchronizeMultiAxesChange"
+        },
+        {
+            "emit": "useAggregationChange"
+        },
+        {
+            "emit": "valueAxisChange"
+        },
+        {
+            "emit": "zoomingModeChange"
+        }
+    ],
+    "properties": [
+        {
+            "name": "rtlEnabled",
+            "type": "any"
+        },
+        {
+            "name": "export",
+            "type": "any"
+        },
+        {
+            "name": "loadingIndicator",
+            "type": "any"
+        },
+        {
+            "name": "margin",
+            "type": "any"
+        },
+        {
+            "name": "pathModified",
+            "type": "any"
+        },
+        {
+            "name": "redrawOnResize",
+            "type": "any"
+        },
+        {
+            "name": "size",
+            "type": "any"
+        },
+        {
+            "name": "theme",
+            "type": "any"
+        },
+        {
+            "name": "title",
+            "type": "any"
+        },
+        {
+            "name": "tooltip",
+            "type": "any"
+        },
+        {
+            "name": "adaptiveLayout",
+            "type": "any"
+        },
+        {
+            "name": "animation",
+            "type": "any"
+        },
+        {
+            "name": "customizeLabel",
+            "type": "any"
+        },
+        {
+            "name": "customizePoint",
+            "type": "any"
+        },
+        {
+            "name": "dataSource",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "legend",
+            "type": "any"
+        },
+        {
+            "name": "palette",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "pointSelectionMode",
+            "type": "any"
+        },
+        {
+            "name": "adjustOnZoom",
+            "type": "any"
+        },
+        {
+            "name": "argumentAxis",
+            "type": "any"
+        },
+        {
+            "name": "barWidth",
+            "type": "any"
+        },
+        {
+            "name": "commonAxisSettings",
+            "type": "any"
+        },
+        {
+            "name": "commonPaneSettings",
+            "type": "any"
+        },
+        {
+            "name": "commonSeriesSettings",
+            "type": "any"
+        },
+        {
+            "name": "containerBackgroundColor",
+            "type": "any"
+        },
+        {
+            "name": "crosshair",
+            "type": "any"
+        },
+        {
+            "name": "dataPrepareSettings",
+            "type": "any"
+        },
+        {
+            "name": "defaultPane",
+            "type": "any"
+        },
+        {
+            "name": "equalBarWidth",
+            "type": "any"
+        },
+        {
+            "name": "maxBubbleSize",
+            "type": "any"
+        },
+        {
+            "name": "minBubbleSize",
+            "type": "any"
+        },
+        {
+            "name": "negativesAsZeroes",
+            "type": "any"
+        },
+        {
+            "name": "panes",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "resolveLabelOverlapping",
+            "type": "any"
+        },
+        {
+            "name": "rotated",
+            "type": "any"
+        },
+        {
+            "name": "scrollBar",
+            "type": "any"
+        },
+        {
+            "name": "scrollingMode",
+            "type": "any"
+        },
+        {
+            "name": "series",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "seriesSelectionMode",
+            "type": "any"
+        },
+        {
+            "name": "seriesTemplate",
+            "type": "any"
+        },
+        {
+            "name": "synchronizeMultiAxes",
+            "type": "any"
+        },
+        {
+            "name": "useAggregation",
+            "type": "any"
+        },
+        {
+            "name": "valueAxis",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "zoomingMode",
+            "type": "any"
+        }
+    ],
+    "isEditor": false,
+    "module": "devextreme/viz/chart"
+}

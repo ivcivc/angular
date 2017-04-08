@@ -1,0 +1,389 @@
+{
+    "className": "DxList",
+    "widgetName": "dxList",
+    "isExtension": false,
+    "selector": "dx-list",
+    "events": [
+        {
+            "emit": "onDisposing",
+            "subscribe": "disposing"
+        },
+        {
+            "emit": "onInitialized",
+            "subscribe": "initialized"
+        },
+        {
+            "emit": "onOptionChanged",
+            "subscribe": "optionChanged"
+        },
+        {
+            "emit": "onContentReady",
+            "subscribe": "contentReady"
+        },
+        {
+            "emit": "onItemClick",
+            "subscribe": "itemClick"
+        },
+        {
+            "emit": "onItemContextMenu",
+            "subscribe": "itemContextMenu"
+        },
+        {
+            "emit": "onItemDeleted",
+            "subscribe": "itemDeleted"
+        },
+        {
+            "emit": "onItemDeleting",
+            "subscribe": "itemDeleting"
+        },
+        {
+            "emit": "onItemHold",
+            "subscribe": "itemHold"
+        },
+        {
+            "emit": "onItemRendered",
+            "subscribe": "itemRendered"
+        },
+        {
+            "emit": "onItemReordered",
+            "subscribe": "itemReordered"
+        },
+        {
+            "emit": "onSelectionChanged",
+            "subscribe": "selectionChanged"
+        },
+        {
+            "emit": "onGroupRendered",
+            "subscribe": "groupRendered"
+        },
+        {
+            "emit": "onItemSwipe",
+            "subscribe": "itemSwipe"
+        },
+        {
+            "emit": "onPageLoading",
+            "subscribe": "pageLoading"
+        },
+        {
+            "emit": "onPullRefresh",
+            "subscribe": "pullRefresh"
+        },
+        {
+            "emit": "onScroll",
+            "subscribe": "scroll"
+        },
+        {
+            "emit": "onSelectAllValueChanged",
+            "subscribe": "selectAllValueChanged"
+        },
+        {
+            "emit": "heightChange"
+        },
+        {
+            "emit": "rtlEnabledChange"
+        },
+        {
+            "emit": "widthChange"
+        },
+        {
+            "emit": "accessKeyChange"
+        },
+        {
+            "emit": "activeStateEnabledChange"
+        },
+        {
+            "emit": "disabledChange"
+        },
+        {
+            "emit": "focusStateEnabledChange"
+        },
+        {
+            "emit": "hintChange"
+        },
+        {
+            "emit": "hoverStateEnabledChange"
+        },
+        {
+            "emit": "tabIndexChange"
+        },
+        {
+            "emit": "visibleChange"
+        },
+        {
+            "emit": "dataSourceChange"
+        },
+        {
+            "emit": "itemHoldTimeoutChange"
+        },
+        {
+            "emit": "itemTemplateChange"
+        },
+        {
+            "emit": "noDataTextChange"
+        },
+        {
+            "emit": "selectedItemsChange"
+        },
+        {
+            "emit": "selectionModeChange"
+        },
+        {
+            "emit": "itemsChange"
+        },
+        {
+            "emit": "allowItemDeletingChange"
+        },
+        {
+            "emit": "allowItemReorderingChange"
+        },
+        {
+            "emit": "autoPagingEnabledChange"
+        },
+        {
+            "emit": "bounceEnabledChange"
+        },
+        {
+            "emit": "collapsibleGroupsChange"
+        },
+        {
+            "emit": "groupedChange"
+        },
+        {
+            "emit": "groupTemplateChange"
+        },
+        {
+            "emit": "indicateLoadingChange"
+        },
+        {
+            "emit": "itemDeleteModeChange"
+        },
+        {
+            "emit": "menuItemsChange"
+        },
+        {
+            "emit": "menuModeChange"
+        },
+        {
+            "emit": "nextButtonTextChange"
+        },
+        {
+            "emit": "pageLoadingTextChange"
+        },
+        {
+            "emit": "pageLoadModeChange"
+        },
+        {
+            "emit": "pulledDownTextChange"
+        },
+        {
+            "emit": "pullingDownTextChange"
+        },
+        {
+            "emit": "pullRefreshEnabledChange"
+        },
+        {
+            "emit": "refreshingTextChange"
+        },
+        {
+            "emit": "scrollByContentChange"
+        },
+        {
+            "emit": "scrollByThumbChange"
+        },
+        {
+            "emit": "scrollingEnabledChange"
+        },
+        {
+            "emit": "showNextButtonChange"
+        },
+        {
+            "emit": "showScrollbarChange"
+        },
+        {
+            "emit": "showSelectionControlsChange"
+        },
+        {
+            "emit": "useNativeScrollingChange"
+        }
+    ],
+    "properties": [
+        {
+            "name": "height",
+            "type": "any"
+        },
+        {
+            "name": "rtlEnabled",
+            "type": "any"
+        },
+        {
+            "name": "width",
+            "type": "any"
+        },
+        {
+            "name": "accessKey",
+            "type": "any"
+        },
+        {
+            "name": "activeStateEnabled",
+            "type": "any"
+        },
+        {
+            "name": "disabled",
+            "type": "any"
+        },
+        {
+            "name": "focusStateEnabled",
+            "type": "any"
+        },
+        {
+            "name": "hint",
+            "type": "any"
+        },
+        {
+            "name": "hoverStateEnabled",
+            "type": "any"
+        },
+        {
+            "name": "tabIndex",
+            "type": "any"
+        },
+        {
+            "name": "visible",
+            "type": "any"
+        },
+        {
+            "name": "dataSource",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "itemHoldTimeout",
+            "type": "any"
+        },
+        {
+            "name": "itemTemplate",
+            "type": "any"
+        },
+        {
+            "name": "noDataText",
+            "type": "any"
+        },
+        {
+            "name": "selectedItems",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "selectionMode",
+            "type": "any"
+        },
+        {
+            "name": "items",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "allowItemDeleting",
+            "type": "any"
+        },
+        {
+            "name": "allowItemReordering",
+            "type": "any"
+        },
+        {
+            "name": "autoPagingEnabled",
+            "type": "any"
+        },
+        {
+            "name": "bounceEnabled",
+            "type": "any"
+        },
+        {
+            "name": "collapsibleGroups",
+            "type": "any"
+        },
+        {
+            "name": "grouped",
+            "type": "any"
+        },
+        {
+            "name": "groupTemplate",
+            "type": "any"
+        },
+        {
+            "name": "indicateLoading",
+            "type": "any"
+        },
+        {
+            "name": "itemDeleteMode",
+            "type": "any"
+        },
+        {
+            "name": "menuItems",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "menuMode",
+            "type": "any"
+        },
+        {
+            "name": "nextButtonText",
+            "type": "any"
+        },
+        {
+            "name": "pageLoadingText",
+            "type": "any"
+        },
+        {
+            "name": "pageLoadMode",
+            "type": "any"
+        },
+        {
+            "name": "pulledDownText",
+            "type": "any"
+        },
+        {
+            "name": "pullingDownText",
+            "type": "any"
+        },
+        {
+            "name": "pullRefreshEnabled",
+            "type": "any"
+        },
+        {
+            "name": "refreshingText",
+            "type": "any"
+        },
+        {
+            "name": "scrollByContent",
+            "type": "any"
+        },
+        {
+            "name": "scrollByThumb",
+            "type": "any"
+        },
+        {
+            "name": "scrollingEnabled",
+            "type": "any"
+        },
+        {
+            "name": "showNextButton",
+            "type": "any"
+        },
+        {
+            "name": "showScrollbar",
+            "type": "any"
+        },
+        {
+            "name": "showSelectionControls",
+            "type": "any"
+        },
+        {
+            "name": "useNativeScrolling",
+            "type": "any"
+        }
+    ],
+    "isEditor": false,
+    "module": "devextreme/ui/list"
+}

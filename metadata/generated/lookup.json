@@ -1,0 +1,550 @@
+{
+    "className": "DxLookup",
+    "widgetName": "dxLookup",
+    "isExtension": false,
+    "selector": "dx-lookup",
+    "events": [
+        {
+            "emit": "onDisposing",
+            "subscribe": "disposing"
+        },
+        {
+            "emit": "onInitialized",
+            "subscribe": "initialized"
+        },
+        {
+            "emit": "onOptionChanged",
+            "subscribe": "optionChanged"
+        },
+        {
+            "emit": "onValueChanged",
+            "subscribe": "valueChanged"
+        },
+        {
+            "emit": "onClosed",
+            "subscribe": "closed"
+        },
+        {
+            "emit": "onOpened",
+            "subscribe": "opened"
+        },
+        {
+            "emit": "onContentReady",
+            "subscribe": "contentReady"
+        },
+        {
+            "emit": "onItemClick",
+            "subscribe": "itemClick"
+        },
+        {
+            "emit": "onSelectionChanged",
+            "subscribe": "selectionChanged"
+        },
+        {
+            "emit": "onPageLoading",
+            "subscribe": "pageLoading"
+        },
+        {
+            "emit": "onPullRefresh",
+            "subscribe": "pullRefresh"
+        },
+        {
+            "emit": "onScroll",
+            "subscribe": "scroll"
+        },
+        {
+            "emit": "onTitleRendered",
+            "subscribe": "titleRendered"
+        },
+        {
+            "emit": "dataSourceChange"
+        },
+        {
+            "emit": "displayExprChange"
+        },
+        {
+            "emit": "itemTemplateChange"
+        },
+        {
+            "emit": "valueExprChange"
+        },
+        {
+            "emit": "itemsChange"
+        },
+        {
+            "emit": "heightChange"
+        },
+        {
+            "emit": "rtlEnabledChange"
+        },
+        {
+            "emit": "widthChange"
+        },
+        {
+            "emit": "accessKeyChange"
+        },
+        {
+            "emit": "activeStateEnabledChange"
+        },
+        {
+            "emit": "disabledChange"
+        },
+        {
+            "emit": "focusStateEnabledChange"
+        },
+        {
+            "emit": "hintChange"
+        },
+        {
+            "emit": "hoverStateEnabledChange"
+        },
+        {
+            "emit": "tabIndexChange"
+        },
+        {
+            "emit": "visibleChange"
+        },
+        {
+            "emit": "isValidChange"
+        },
+        {
+            "emit": "nameChange"
+        },
+        {
+            "emit": "validationErrorChange"
+        },
+        {
+            "emit": "validationMessageModeChange"
+        },
+        {
+            "emit": "valueChange"
+        },
+        {
+            "emit": "attrChange"
+        },
+        {
+            "emit": "placeholderChange"
+        },
+        {
+            "emit": "showClearButtonChange"
+        },
+        {
+            "emit": "textChange"
+        },
+        {
+            "emit": "valueChangeEventChange"
+        },
+        {
+            "emit": "applyValueModeChange"
+        },
+        {
+            "emit": "deferRenderingChange"
+        },
+        {
+            "emit": "fieldEditEnabledChange"
+        },
+        {
+            "emit": "openedChange"
+        },
+        {
+            "emit": "displayValueChange"
+        },
+        {
+            "emit": "fieldTemplateChange"
+        },
+        {
+            "emit": "minSearchLengthChange"
+        },
+        {
+            "emit": "noDataTextChange"
+        },
+        {
+            "emit": "pagingEnabledChange"
+        },
+        {
+            "emit": "searchEnabledChange"
+        },
+        {
+            "emit": "searchExprChange"
+        },
+        {
+            "emit": "searchModeChange"
+        },
+        {
+            "emit": "searchTimeoutChange"
+        },
+        {
+            "emit": "selectedItemChange"
+        },
+        {
+            "emit": "showDataBeforeSearchChange"
+        },
+        {
+            "emit": "animationChange"
+        },
+        {
+            "emit": "applyButtonTextChange"
+        },
+        {
+            "emit": "cancelButtonTextChange"
+        },
+        {
+            "emit": "cleanSearchOnOpeningChange"
+        },
+        {
+            "emit": "clearButtonTextChange"
+        },
+        {
+            "emit": "closeOnOutsideClickChange"
+        },
+        {
+            "emit": "fullScreenChange"
+        },
+        {
+            "emit": "groupedChange"
+        },
+        {
+            "emit": "groupTemplateChange"
+        },
+        {
+            "emit": "nextButtonTextChange"
+        },
+        {
+            "emit": "pageLoadingTextChange"
+        },
+        {
+            "emit": "pageLoadModeChange"
+        },
+        {
+            "emit": "popupHeightChange"
+        },
+        {
+            "emit": "popupWidthChange"
+        },
+        {
+            "emit": "pulledDownTextChange"
+        },
+        {
+            "emit": "pullingDownTextChange"
+        },
+        {
+            "emit": "pullRefreshEnabledChange"
+        },
+        {
+            "emit": "refreshingTextChange"
+        },
+        {
+            "emit": "searchPlaceholderChange"
+        },
+        {
+            "emit": "shadingChange"
+        },
+        {
+            "emit": "showCancelButtonChange"
+        },
+        {
+            "emit": "showNextButtonChange"
+        },
+        {
+            "emit": "showPopupTitleChange"
+        },
+        {
+            "emit": "titleChange"
+        },
+        {
+            "emit": "titleTemplateChange"
+        },
+        {
+            "emit": "useNativeScrollingChange"
+        },
+        {
+            "emit": "usePopoverChange"
+        },
+        {
+            "emit": "positionChange"
+        }
+    ],
+    "properties": [
+        {
+            "name": "dataSource",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "displayExpr",
+            "type": "any"
+        },
+        {
+            "name": "itemTemplate",
+            "type": "any"
+        },
+        {
+            "name": "valueExpr",
+            "type": "any"
+        },
+        {
+            "name": "items",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "height",
+            "type": "any"
+        },
+        {
+            "name": "rtlEnabled",
+            "type": "any"
+        },
+        {
+            "name": "width",
+            "type": "any"
+        },
+        {
+            "name": "accessKey",
+            "type": "any"
+        },
+        {
+            "name": "activeStateEnabled",
+            "type": "any"
+        },
+        {
+            "name": "disabled",
+            "type": "any"
+        },
+        {
+            "name": "focusStateEnabled",
+            "type": "any"
+        },
+        {
+            "name": "hint",
+            "type": "any"
+        },
+        {
+            "name": "hoverStateEnabled",
+            "type": "any"
+        },
+        {
+            "name": "tabIndex",
+            "type": "any"
+        },
+        {
+            "name": "visible",
+            "type": "any"
+        },
+        {
+            "name": "isValid",
+            "type": "any"
+        },
+        {
+            "name": "name",
+            "type": "any"
+        },
+        {
+            "name": "validationError",
+            "type": "any"
+        },
+        {
+            "name": "validationMessageMode",
+            "type": "any"
+        },
+        {
+            "name": "value",
+            "type": "any"
+        },
+        {
+            "name": "attr",
+            "type": "any"
+        },
+        {
+            "name": "placeholder",
+            "type": "any"
+        },
+        {
+            "name": "showClearButton",
+            "type": "any"
+        },
+        {
+            "name": "text",
+            "type": "any"
+        },
+        {
+            "name": "valueChangeEvent",
+            "type": "any"
+        },
+        {
+            "name": "applyValueMode",
+            "type": "any"
+        },
+        {
+            "name": "deferRendering",
+            "type": "any"
+        },
+        {
+            "name": "fieldEditEnabled",
+            "type": "any"
+        },
+        {
+            "name": "opened",
+            "type": "any"
+        },
+        {
+            "name": "displayValue",
+            "type": "any"
+        },
+        {
+            "name": "fieldTemplate",
+            "type": "any"
+        },
+        {
+            "name": "minSearchLength",
+            "type": "any"
+        },
+        {
+            "name": "noDataText",
+            "type": "any"
+        },
+        {
+            "name": "pagingEnabled",
+            "type": "any"
+        },
+        {
+            "name": "searchEnabled",
+            "type": "any"
+        },
+        {
+            "name": "searchExpr",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "searchMode",
+            "type": "any"
+        },
+        {
+            "name": "searchTimeout",
+            "type": "any"
+        },
+        {
+            "name": "selectedItem",
+            "type": "any"
+        },
+        {
+            "name": "showDataBeforeSearch",
+            "type": "any"
+        },
+        {
+            "name": "animation",
+            "type": "any"
+        },
+        {
+            "name": "applyButtonText",
+            "type": "any"
+        },
+        {
+            "name": "cancelButtonText",
+            "type": "any"
+        },
+        {
+            "name": "cleanSearchOnOpening",
+            "type": "any"
+        },
+        {
+            "name": "clearButtonText",
+            "type": "any"
+        },
+        {
+            "name": "closeOnOutsideClick",
+            "type": "any"
+        },
+        {
+            "name": "fullScreen",
+            "type": "any"
+        },
+        {
+            "name": "grouped",
+            "type": "any"
+        },
+        {
+            "name": "groupTemplate",
+            "type": "any"
+        },
+        {
+            "name": "nextButtonText",
+            "type": "any"
+        },
+        {
+            "name": "pageLoadingText",
+            "type": "any"
+        },
+        {
+            "name": "pageLoadMode",
+            "type": "any"
+        },
+        {
+            "name": "popupHeight",
+            "type": "any"
+        },
+        {
+            "name": "popupWidth",
+            "type": "any"
+        },
+        {
+            "name": "pulledDownText",
+            "type": "any"
+        },
+        {
+            "name": "pullingDownText",
+            "type": "any"
+        },
+        {
+            "name": "pullRefreshEnabled",
+            "type": "any"
+        },
+        {
+            "name": "refreshingText",
+            "type": "any"
+        },
+        {
+            "name": "searchPlaceholder",
+            "type": "any"
+        },
+        {
+            "name": "shading",
+            "type": "any"
+        },
+        {
+            "name": "showCancelButton",
+            "type": "any"
+        },
+        {
+            "name": "showNextButton",
+            "type": "any"
+        },
+        {
+            "name": "showPopupTitle",
+            "type": "any"
+        },
+        {
+            "name": "title",
+            "type": "any"
+        },
+        {
+            "name": "titleTemplate",
+            "type": "any"
+        },
+        {
+            "name": "useNativeScrolling",
+            "type": "any"
+        },
+        {
+            "name": "usePopover",
+            "type": "any"
+        },
+        {
+            "name": "position",
+            "type": "any"
+        }
+    ],
+    "isEditor": true,
+    "module": "devextreme/ui/lookup"
+}

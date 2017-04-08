@@ -1,0 +1,280 @@
+{
+    "className": "DxFileUploader",
+    "widgetName": "dxFileUploader",
+    "isExtension": false,
+    "selector": "dx-file-uploader",
+    "events": [
+        {
+            "emit": "onDisposing",
+            "subscribe": "disposing"
+        },
+        {
+            "emit": "onInitialized",
+            "subscribe": "initialized"
+        },
+        {
+            "emit": "onOptionChanged",
+            "subscribe": "optionChanged"
+        },
+        {
+            "emit": "onValueChanged",
+            "subscribe": "valueChanged"
+        },
+        {
+            "emit": "onProgress",
+            "subscribe": "progress"
+        },
+        {
+            "emit": "onUploadAborted",
+            "subscribe": "uploadAborted"
+        },
+        {
+            "emit": "onUploaded",
+            "subscribe": "uploaded"
+        },
+        {
+            "emit": "onUploadError",
+            "subscribe": "uploadError"
+        },
+        {
+            "emit": "onUploadStarted",
+            "subscribe": "uploadStarted"
+        },
+        {
+            "emit": "heightChange"
+        },
+        {
+            "emit": "rtlEnabledChange"
+        },
+        {
+            "emit": "widthChange"
+        },
+        {
+            "emit": "accessKeyChange"
+        },
+        {
+            "emit": "activeStateEnabledChange"
+        },
+        {
+            "emit": "disabledChange"
+        },
+        {
+            "emit": "focusStateEnabledChange"
+        },
+        {
+            "emit": "hintChange"
+        },
+        {
+            "emit": "hoverStateEnabledChange"
+        },
+        {
+            "emit": "tabIndexChange"
+        },
+        {
+            "emit": "visibleChange"
+        },
+        {
+            "emit": "isValidChange"
+        },
+        {
+            "emit": "nameChange"
+        },
+        {
+            "emit": "readOnlyChange"
+        },
+        {
+            "emit": "validationErrorChange"
+        },
+        {
+            "emit": "valueChange"
+        },
+        {
+            "emit": "acceptChange"
+        },
+        {
+            "emit": "allowCancelingChange"
+        },
+        {
+            "emit": "buttonTextChange"
+        },
+        {
+            "emit": "labelTextChange"
+        },
+        {
+            "emit": "multipleChange"
+        },
+        {
+            "emit": "progressChange"
+        },
+        {
+            "emit": "readyToUploadMessageChange"
+        },
+        {
+            "emit": "selectButtonTextChange"
+        },
+        {
+            "emit": "showFileListChange"
+        },
+        {
+            "emit": "uploadButtonTextChange"
+        },
+        {
+            "emit": "uploadedMessageChange"
+        },
+        {
+            "emit": "uploadFailedMessageChange"
+        },
+        {
+            "emit": "uploadHeadersChange"
+        },
+        {
+            "emit": "uploadMethodChange"
+        },
+        {
+            "emit": "uploadModeChange"
+        },
+        {
+            "emit": "uploadUrlChange"
+        },
+        {
+            "emit": "valuesChange"
+        }
+    ],
+    "properties": [
+        {
+            "name": "height",
+            "type": "any"
+        },
+        {
+            "name": "rtlEnabled",
+            "type": "any"
+        },
+        {
+            "name": "width",
+            "type": "any"
+        },
+        {
+            "name": "accessKey",
+            "type": "any"
+        },
+        {
+            "name": "activeStateEnabled",
+            "type": "any"
+        },
+        {
+            "name": "disabled",
+            "type": "any"
+        },
+        {
+            "name": "focusStateEnabled",
+            "type": "any"
+        },
+        {
+            "name": "hint",
+            "type": "any"
+        },
+        {
+            "name": "hoverStateEnabled",
+            "type": "any"
+        },
+        {
+            "name": "tabIndex",
+            "type": "any"
+        },
+        {
+            "name": "visible",
+            "type": "any"
+        },
+        {
+            "name": "isValid",
+            "type": "any"
+        },
+        {
+            "name": "name",
+            "type": "any"
+        },
+        {
+            "name": "readOnly",
+            "type": "any"
+        },
+        {
+            "name": "validationError",
+            "type": "any"
+        },
+        {
+            "name": "value",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "accept",
+            "type": "any"
+        },
+        {
+            "name": "allowCanceling",
+            "type": "any"
+        },
+        {
+            "name": "buttonText",
+            "type": "any"
+        },
+        {
+            "name": "labelText",
+            "type": "any"
+        },
+        {
+            "name": "multiple",
+            "type": "any"
+        },
+        {
+            "name": "progress",
+            "type": "any"
+        },
+        {
+            "name": "readyToUploadMessage",
+            "type": "any"
+        },
+        {
+            "name": "selectButtonText",
+            "type": "any"
+        },
+        {
+            "name": "showFileList",
+            "type": "any"
+        },
+        {
+            "name": "uploadButtonText",
+            "type": "any"
+        },
+        {
+            "name": "uploadedMessage",
+            "type": "any"
+        },
+        {
+            "name": "uploadFailedMessage",
+            "type": "any"
+        },
+        {
+            "name": "uploadHeaders",
+            "type": "any"
+        },
+        {
+            "name": "uploadMethod",
+            "type": "any"
+        },
+        {
+            "name": "uploadMode",
+            "type": "any"
+        },
+        {
+            "name": "uploadUrl",
+            "type": "any"
+        },
+        {
+            "name": "values",
+            "type": "any"
+        }
+    ],
+    "isEditor": true,
+    "module": "devextreme/ui/file_uploader"
+}

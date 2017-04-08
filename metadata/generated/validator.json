@@ -1,0 +1,71 @@
+{
+    "className": "DxValidator",
+    "widgetName": "dxValidator",
+    "isExtension": true,
+    "selector": "dx-validator",
+    "events": [
+        {
+            "emit": "onDisposing",
+            "subscribe": "disposing"
+        },
+        {
+            "emit": "onInitialized",
+            "subscribe": "initialized"
+        },
+        {
+            "emit": "onOptionChanged",
+            "subscribe": "optionChanged"
+        },
+        {
+            "emit": "onValidated",
+            "subscribe": "validated"
+        },
+        {
+            "emit": "heightChange"
+        },
+        {
+            "emit": "widthChange"
+        },
+        {
+            "emit": "adapterChange"
+        },
+        {
+            "emit": "nameChange"
+        },
+        {
+            "emit": "validationGroupChange"
+        },
+        {
+            "emit": "validationRulesChange"
+        }
+    ],
+    "properties": [
+        {
+            "name": "height",
+            "type": "any"
+        },
+        {
+            "name": "width",
+            "type": "any"
+        },
+        {
+            "name": "adapter",
+            "type": "any"
+        },
+        {
+            "name": "name",
+            "type": "any"
+        },
+        {
+            "name": "validationGroup",
+            "type": "any"
+        },
+        {
+            "name": "validationRules",
+            "type": "any",
+            "isCollection": true
+        }
+    ],
+    "isEditor": false,
+    "module": "devextreme/ui/validator"
+}

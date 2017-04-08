@@ -1,0 +1,203 @@
+{
+    "className": "DxCalendar",
+    "widgetName": "dxCalendar",
+    "isExtension": false,
+    "selector": "dx-calendar",
+    "events": [
+        {
+            "emit": "onDisposing",
+            "subscribe": "disposing"
+        },
+        {
+            "emit": "onInitialized",
+            "subscribe": "initialized"
+        },
+        {
+            "emit": "onOptionChanged",
+            "subscribe": "optionChanged"
+        },
+        {
+            "emit": "onValueChanged",
+            "subscribe": "valueChanged"
+        },
+        {
+            "emit": "heightChange"
+        },
+        {
+            "emit": "rtlEnabledChange"
+        },
+        {
+            "emit": "widthChange"
+        },
+        {
+            "emit": "accessKeyChange"
+        },
+        {
+            "emit": "activeStateEnabledChange"
+        },
+        {
+            "emit": "disabledChange"
+        },
+        {
+            "emit": "focusStateEnabledChange"
+        },
+        {
+            "emit": "hintChange"
+        },
+        {
+            "emit": "hoverStateEnabledChange"
+        },
+        {
+            "emit": "tabIndexChange"
+        },
+        {
+            "emit": "visibleChange"
+        },
+        {
+            "emit": "isValidChange"
+        },
+        {
+            "emit": "nameChange"
+        },
+        {
+            "emit": "readOnlyChange"
+        },
+        {
+            "emit": "validationErrorChange"
+        },
+        {
+            "emit": "validationMessageModeChange"
+        },
+        {
+            "emit": "valueChange"
+        },
+        {
+            "emit": "cellTemplateChange"
+        },
+        {
+            "emit": "firstDayOfWeekChange"
+        },
+        {
+            "emit": "maxChange"
+        },
+        {
+            "emit": "maxZoomLevelChange"
+        },
+        {
+            "emit": "minChange"
+        },
+        {
+            "emit": "minZoomLevelChange"
+        },
+        {
+            "emit": "showTodayButtonChange"
+        },
+        {
+            "emit": "zoomLevelChange"
+        }
+    ],
+    "properties": [
+        {
+            "name": "height",
+            "type": "any"
+        },
+        {
+            "name": "rtlEnabled",
+            "type": "any"
+        },
+        {
+            "name": "width",
+            "type": "any"
+        },
+        {
+            "name": "accessKey",
+            "type": "any"
+        },
+        {
+            "name": "activeStateEnabled",
+            "type": "any"
+        },
+        {
+            "name": "disabled",
+            "type": "any"
+        },
+        {
+            "name": "focusStateEnabled",
+            "type": "any"
+        },
+        {
+            "name": "hint",
+            "type": "any"
+        },
+        {
+            "name": "hoverStateEnabled",
+            "type": "any"
+        },
+        {
+            "name": "tabIndex",
+            "type": "any"
+        },
+        {
+            "name": "visible",
+            "type": "any"
+        },
+        {
+            "name": "isValid",
+            "type": "any"
+        },
+        {
+            "name": "name",
+            "type": "any"
+        },
+        {
+            "name": "readOnly",
+            "type": "any"
+        },
+        {
+            "name": "validationError",
+            "type": "any"
+        },
+        {
+            "name": "validationMessageMode",
+            "type": "any"
+        },
+        {
+            "name": "value",
+            "type": "any"
+        },
+        {
+            "name": "cellTemplate",
+            "type": "any"
+        },
+        {
+            "name": "firstDayOfWeek",
+            "type": "any"
+        },
+        {
+            "name": "max",
+            "type": "any"
+        },
+        {
+            "name": "maxZoomLevel",
+            "type": "any"
+        },
+        {
+            "name": "min",
+            "type": "any"
+        },
+        {
+            "name": "minZoomLevel",
+            "type": "any"
+        },
+        {
+            "name": "showTodayButton",
+            "type": "any"
+        },
+        {
+            "name": "zoomLevel",
+            "type": "any"
+        }
+    ],
+    "isEditor": true,
+    "module": "devextreme/ui/calendar"
+}

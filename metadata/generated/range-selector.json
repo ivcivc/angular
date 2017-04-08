@@ -1,0 +1,203 @@
+{
+    "className": "DxRangeSelector",
+    "widgetName": "dxRangeSelector",
+    "isExtension": false,
+    "selector": "dx-range-selector",
+    "events": [
+        {
+            "emit": "onDisposing",
+            "subscribe": "disposing"
+        },
+        {
+            "emit": "onInitialized",
+            "subscribe": "initialized"
+        },
+        {
+            "emit": "onOptionChanged",
+            "subscribe": "optionChanged"
+        },
+        {
+            "emit": "onDrawn",
+            "subscribe": "drawn"
+        },
+        {
+            "emit": "onExported",
+            "subscribe": "exported"
+        },
+        {
+            "emit": "onExporting",
+            "subscribe": "exporting"
+        },
+        {
+            "emit": "onFileSaving",
+            "subscribe": "fileSaving"
+        },
+        {
+            "emit": "onIncidentOccurred",
+            "subscribe": "incidentOccurred"
+        },
+        {
+            "emit": "onSelectedRangeChanged",
+            "subscribe": "selectedRangeChanged"
+        },
+        {
+            "emit": "rtlEnabledChange"
+        },
+        {
+            "emit": "exportChange"
+        },
+        {
+            "emit": "loadingIndicatorChange"
+        },
+        {
+            "emit": "marginChange"
+        },
+        {
+            "emit": "pathModifiedChange"
+        },
+        {
+            "emit": "redrawOnResizeChange"
+        },
+        {
+            "emit": "sizeChange"
+        },
+        {
+            "emit": "themeChange"
+        },
+        {
+            "emit": "titleChange"
+        },
+        {
+            "emit": "backgroundChange"
+        },
+        {
+            "emit": "behaviorChange"
+        },
+        {
+            "emit": "chartChange"
+        },
+        {
+            "emit": "containerBackgroundColorChange"
+        },
+        {
+            "emit": "dataSourceChange"
+        },
+        {
+            "emit": "dataSourceFieldChange"
+        },
+        {
+            "emit": "indentChange"
+        },
+        {
+            "emit": "scaleChange"
+        },
+        {
+            "emit": "selectedRangeChange"
+        },
+        {
+            "emit": "selectedRangeColorChange"
+        },
+        {
+            "emit": "shutterChange"
+        },
+        {
+            "emit": "sliderHandleChange"
+        },
+        {
+            "emit": "sliderMarkerChange"
+        }
+    ],
+    "properties": [
+        {
+            "name": "rtlEnabled",
+            "type": "any"
+        },
+        {
+            "name": "export",
+            "type": "any"
+        },
+        {
+            "name": "loadingIndicator",
+            "type": "any"
+        },
+        {
+            "name": "margin",
+            "type": "any"
+        },
+        {
+            "name": "pathModified",
+            "type": "any"
+        },
+        {
+            "name": "redrawOnResize",
+            "type": "any"
+        },
+        {
+            "name": "size",
+            "type": "any"
+        },
+        {
+            "name": "theme",
+            "type": "any"
+        },
+        {
+            "name": "title",
+            "type": "any"
+        },
+        {
+            "name": "background",
+            "type": "any"
+        },
+        {
+            "name": "behavior",
+            "type": "any"
+        },
+        {
+            "name": "chart",
+            "type": "any"
+        },
+        {
+            "name": "containerBackgroundColor",
+            "type": "any"
+        },
+        {
+            "name": "dataSource",
+            "type": "any",
+            "isCollection": true
+        },
+        {
+            "name": "dataSourceField",
+            "type": "any"
+        },
+        {
+            "name": "indent",
+            "type": "any"
+        },
+        {
+            "name": "scale",
+            "type": "any"
+        },
+        {
+            "name": "selectedRange",
+            "type": "any"
+        },
+        {
+            "name": "selectedRangeColor",
+            "type": "any"
+        },
+        {
+            "name": "shutter",
+            "type": "any"
+        },
+        {
+            "name": "sliderHandle",
+            "type": "any"
+        },
+        {
+            "name": "sliderMarker",
+            "type": "any"
+        }
+    ],
+    "isEditor": false,
+    "module": "devextreme/viz/range_selector"
+}
